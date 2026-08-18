@@ -1,0 +1,18 @@
+{
+  "obras_cinema": 687.0,
+  "n_com_algum_sinal": 157.0,
+  "pct_com_algum_sinal": 22.853,
+  "admEU_mil": 1002.16,
+  "n_com_admEU": 41.0,
+  "n_com_festival": 146.0,
+  "pontos_festival_total": 3616.5,
+  "fest_participacoes_total": 1083.0,
+  "n_vod": 32.0,
+  "n_cartaz_us": 24.0,
+  "n_cartaz_asia": 18.0,
+  "n_cartaz_us_ou_asia": 37.0,
+  "desemp_intl_medio_perf": 9.025,
+  "cartaz_resgata_invisiveis": 8.0,
+  "xval_composto_corr": 0.894,
+  "xval_admEU_corr": 1.0
+}

@@ -1,0 +1,13 @@
+{
+  "obras": 687,
+  "cobertura_critica_pct": 57.1,
+  "cobertura_acad_pct": 17.2,
+  "cobertura_presenca_pct": 22.1,
+  "cobertura_presenca_intl_pct": 12.5,
+  "cobertura_imdb_pct": 58.7,
+  "n_presenca_intl": 86,
+  "L_max": 17,
+  "pv2024_total": 1359727,
+  "papers_total": 674,
+  "nota_social": "Redes sociais NÃO entram como número (APIs fechadas/não-reproduzíveis pós-2023) — só nota qualitativa."
+}

@@ -1,0 +1,25 @@
+{
+  "periodo": [
+    2014,
+    2023
+  ],
+  "n_chamadas_2014": 3,
+  "n_chamadas_2023": 22,
+  "n_mecanismos_2014": 3,
+  "n_mecanismos_2023": 8,
+  "turnover_medio": 0.15788888888888888,
+  "aporte_pico_ano": 2018,
+  "aporte_pico_mi": 1152.078091062017,
+  "aporte_vale_ano": 2019,
+  "aporte_vale_mi": 24.0650272151688,
+  "queda_pico_vale_pct": 97.91116353987906,
+  "cv_aporte": 0.8845595531821296,
+  "anos_quase_zero": [
+    2019,
+    2021
+  ],
+  "anos_sem_fluxo": [
+    2020
+  ],
+  "fsa_total_periodo_bi": 3.768476602237475
+}

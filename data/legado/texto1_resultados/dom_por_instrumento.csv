@@ -1,0 +1,5 @@
+﻿instrumento;n;fsa_mi;total_mi;bilheteria_mi;janelas_crt_mi;receita_crt_mi;pct_com_sala;pct_receita_sintetica;roi_dom_fsa_crt;roi_dom_fsa_obs;roi_dom_total_crt;n_com_publico;publico_mi;sessoes_mil;municipios_mediana;publico_por_mi_fsa
+FSA puro;363.0;412.426;412.426;13.239;28.994;42.232;62.259;68.653;0.102;0.032;0.102;223.0;0.664;70.92;8.0;1609.894
+Misto FSA+Renúncia;324.0;706.908;1512.837;514.656;57.231;571.887;87.346;10.007;0.809;0.728;0.378;281.0;25.886;818.162;13.0;36618.778
+Renúncia pura;1005.0;0.0;2335.634;1571.276;165.983;1737.259;34.428;9.554;;;0.744;67.0;4.716;265.629;27.0;
+sem inv.;156.0;0.0;0.0;32.932;20.284;53.216;39.744;38.117;;;;24.0;0.154;16.173;9.0;

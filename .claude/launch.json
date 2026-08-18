@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-fsa",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8788", "--directory", "site"],
+      "port": 8788
+    },
+    {
+      "name": "static",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8807", "--directory", "outputs/eda"],
+      "port": 8807
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(./.venv/Scripts/python.exe:*)",
+      "PowerShell(python:*)",
+      "PowerShell(.venv\\Scripts\\python.exe:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

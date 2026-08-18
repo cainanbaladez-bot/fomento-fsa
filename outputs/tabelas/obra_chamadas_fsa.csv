@@ -1,0 +1,688 @@
+﻿CPB;titulo;categoria;n_chamadas_fsa;todas_chamadas;todos_valores;tem_complementacao;tem_comercializacao;cat_nova;motivo_cat;cat_antiga;reclassificada
+B1600324600000;BILL, O TOURO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;266643;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800159100000;DIVERSIDADE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;166005;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600107600000;EM NOME DA LEI;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 01;1131960|700000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600064700000;ESPAÇO ALÉM - MARINA ABRAMOVIC E O BRASIL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;60000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600416100000;MÃE SÓ HÁ UMA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600227000000;O CASEIRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600756100000;A CIDADE DO FUTURO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600630700000;A FINADA MÃE DA MADAME;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;533333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700012000000;A PROFESSORA DE MÚSICA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;133333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600713500000;AS AVENTURAS DE MINUANO KID;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700013000000;CAFÉ COM CANELA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;532119;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700422600000;CHOCANTE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;504368;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600651600000;CURUMIM, O HOMEM QUE QUERIA VOAR;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700401900000;EU MORO AQUI;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;333333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600714000000;O ÚLTIMO TRAGO;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODECINE 03|PRODECINE 05;587967|200000|116359;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600473500000;QUATRO MILAGRES DE UM SANTO LADRÃO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600547800000;RIFLE;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 03;300000|144000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700605000000;A MOÇA DO CALENDÁRIO;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 03;495000|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800115300000;A VIDA EXTRA-ORDINÁRIA DE TARSO DE CASTRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700542200000;ALCE & ALICE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800408800000;AURORA 1964;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;96241;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700620000000;BRAZIL, MADE IN PARANÁ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;30000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900426000000;CANAL 60;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;54000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900452000000;CLANDESTINO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700342300000;DIÁRIOS DA FLORESTA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;666667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800077200000;JEITOSINHA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;168148;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900203700000;JOÃO E MARIA - UMA AVENTURA NO CERRADO (O FILME);FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;28000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800443100000;LENINGRADO LINHA 41;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33334;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700214000000;NO FIM DE TUDO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33334;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700104400000;O CLUBE DOS CANIBAIS;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;588500|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800609700000;O SAMBA QUE MORA AQUI;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700070600000;O SENHOR DAS JORNADAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;166667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700510100000;PAULA PARANORMAL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;54000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800236000000;PROFETAS DA CHUVA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;225079;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800364300000;SABÁ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;73620;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1700424500000;YONLU;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 03;600000|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800307800000;1798 REVOLTA DOS BÚZIOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900117400000;A COLMEIA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;300000|92000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900412100000;A VOZ DO VERBO ENCANTADO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;237416;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900034500000;ALASKA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;200000|178500;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800093300000;ANJOS HUMANOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;283333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800141000000;AZOUGUE NAZARÉ;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;215300|180000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800494000000;BEIÇO DE ESTRADA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800394600000;BOTECAM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;128000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900032600000;CARTAS PARA...A SÉRIE, ESCRITORAS BAIANAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;226000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900210300000;"CIRCO SOCIAL ""OS KACO""";FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;15000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900433000000;CODINOME BRENO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800569200000;CRISÁLIDA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;480000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800566100000;CRUA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800485700000;ESTANTE DE LIVROS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;52326;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800449500000;EU, UM OUTRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;450000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800335300000;FRANS KRAJCBERG: MANIFESTO;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;105000|100000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800452000000;FRONTEIRAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;30000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900248400000;HUNT;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;211550;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800255500000;ILHA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;530760;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800168300000;INFERNINHO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;85600;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800190900000;JOVENS DE CORAÇÃO - EPISÓDIO PILOTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;54000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800444000000;JUVENAL E OLIVER;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;79138;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800287700000;LUNA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;450000|190000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800610400000;MIRANTE;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;150000|99370;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900112800000;NA ASA DO VENTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;174814;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800348000000;NA CONTRAMÃO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;283332;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900027900000;NADIR;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33330;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800440700000;O BARCO;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;586667|100000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800311700000;O BEIJO DE ALICE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;183000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800445800000;O BEM-AVENTURADO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;182550;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800378500000;O DESPERTAR DE SOLOMON;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;172140;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800189500000;OFF-GRID - (DES)REGRADOS (EPISÓDIO PILOTO);FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;30000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800235200000;ONDE QUER QUE VOCÊ ESTEJA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;150000|100000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800595000000;PEDRINHO E A CHUTEIRA DA SORTE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;354824;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900427100000;QUANDO AS COISAS SE DESMANCHAM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800216300000;RICK COM MONSTROS NOS DEDOS - EPISÓDIO PILOTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;43538;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800466100000;TEMPORADA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;450000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800454800000;XADALU E O JAGUARETÊ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900471700000;A ARTE URBANA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;94520;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900494600000;A BATALHA DE SHANGRI-LÁ;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 04;733300|613912;True;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900371300000;A CIDADE DO FUTURO TV;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900611200000;A CIDADE DOS ABISMOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900585300000;A MARAVILHA DO SÉCULO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;127500;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900249100000;A NOITE AMARELA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 04;500000|187475;True;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900617900000;A ÉTICA DAS HIENAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900347600000;AMBIENTE FAMILIAR;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;333333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000007500000;APERTE START, WOLFGANG;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;54000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900158800000;AVENTURAS DE AMÍ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;910000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900223700000;BAIXO CENTRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;450000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900498800000;BATE CORAÇÃO;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODECINE 01|PRODECINE 04;588487|500000|492968;True;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900045700000;BECO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150280;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900160800000;BOIS, RAPOSAS E CROCODILOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;180345;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900591800000;BORIS E RUFUS- TEMPORADA 03;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;950000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900504800000;BRASÍLIA, A HISTÓRIA DA HISTÓRIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;400000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900561100000;CAPITÃO ASTÚCIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1997507;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900268200000;CASALTOPIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;53995;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900583200000;CIDADE PÁSSARO;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODAV 07|PRODAV 06;300000|300000|105428;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900308000000;CURTAS JORNADAS NOITE ADENTRO;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;150000|100000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900514000000;D'ARQUEOLOGIA - A OCUPAÇÃO DO BRASIL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;226000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900379100000;DEPOIS DE SER CINZA;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;600000|377300|100000;True;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900298300000;DESTINO DAS SOMBRAS;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 04;600000|88773;True;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000230900000;DESVIO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900090000000;DISFORIA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;300000|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900423900000;DOIS TEMPOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;156461;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900288400000;DR. OCRIDE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900247000000;EM REFORMA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900336600000;FAIXA DE GAZA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900205100000;FOTOGRAFAÇÃO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900201200000;GÊNERO PLURAL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;85600;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000100400000;HOSANA NAS ALTURAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900247500000;MEZANINO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900153500000;NATUREZA DO HOMEM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;265967;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900197700000;NATUREZA DO HOMEM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;265967;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900461300000;O HOMEM CORDIAL;FSA SAV/MINC / Arranjos Regionais;4;ARRANJOS REGIONAIS|PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA|PRODAV 06;1449875|510000|195000|65000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900448300000;OLHAR SUBMERSO - NAUFRÁGIOS DE PERNAMBUCO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;145509;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900179300000;OLHOS DE FOGO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900235200000;ORQUESTRA DO MUNDO - RIO SÃO FRANCISCO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;226000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900421600000;OS BRAVOS NUNCA SE CALAM;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;300000|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900489000000;OS HERDEIROS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;85504;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900146900000;OS KONSIDERADOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;666667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900350600000;PARQUE OESTE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900570100000;QUEM TEM MEDO DE LUCIENE CARVALHO?;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;400000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900507200000;QUERÊNCIA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODAV 07;450000|250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900336500000;SEU AMOR DE VOLTA (MESMO QUE ELE NÃO QUEIRA);FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900197900000;TABUH!;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;399967;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900397800000;UM PEIXE PARA DOIS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900590100000;VILA MARIOTE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;300000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000223500000;80 ANOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;225800;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000294200000;A ESPERA DE LIZ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;173411;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000523200000;A MESMA PARTE DE UM HOMEM;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 04;1000000|774289;True;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000096300000;A MORTE HABITA À NOITE;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODAV 06;501044|200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000264700000;A TRADICIONAL FAMÍLIA BRASILEIRA - KATU;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000096500000;ACQUA MOVIE;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODAV 07|PRODAV 06;1000000|470000|300000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000255200000;ATRAS DA SOMBRA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;900000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000495400000;CAMINHO DE VOLTA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;328606;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000073200000;CASA IZABEL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;375000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000130600000;CAVALO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;599610;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000173800000;CELSO ANTÔNIO, BRASILEIRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;373934;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000344400000;CIDADE SUBMERSA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;85600;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000157600000;COLETIVO DE MULTIDÃO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000026900000;CULTURAMA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;184467;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000059600000;DA MANGA ROSA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;225920;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000325100000;DENTRO DA MINHA PELE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;160051;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000468500000;DORA E GABRIEL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;400000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000436900000;ENTRE NÓS, UM SEGREDO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;75000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000499300000;ESPERO QUE ESTA TE ENCONTRE E QUE ESTEJAS BEM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;222425;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000066500000;FIM DE FESTA;FSA SAV/MINC / Arranjos Regionais;3;ARRANJOS REGIONAIS|PRODAV 07|PRODAV 06;998737|500000|486678;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000184000000;FRANCISCO SÓ QUER JOGAR BOLA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1599862;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000352100000;GYURI;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODECINE 05;239472|124136;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000227100000;MEU QUERIDO SUPERMERCADO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000335200000;MEU TIO JOSÉ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1042033;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000100500000;NOSSO AMOR DE HOJE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;160000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000524900000;O CINEMA E AS CIDADES;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;120000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000240100000;O LODO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1650000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000397100000;PALAVRA CRÍTICA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;264292;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000255600000;POR TRÁS DA LINHA DE ESCUDOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;338100;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000239400000;SELVA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000124100000;SEM RETORNO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;900000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000160000000;SOL ALEGRIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000154700000;SONHADORES;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;499912;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000114300000;TERMINAL PRAIA GRANDE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;174825;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000048800000;UMA MULHER, UMA ALDEIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000112100000;VAI MELHORAR;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000477400000;VIA PÚBLICA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;180000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000059900000;VILA HAITI;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;115000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000284300000;ÚLTIMA CIDADE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;951439;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100075200000;A LUZ NA ESCURIDÃO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100113900000;A NUVEM ROSA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;330000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100328100000;A RAINHA E SEUS REIS DE BARRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;219658;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100074300000;AS CORES QUE HABITAMOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;115000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100446000000;AVE CANUDOS! OS QUE SOBREVIVERAM TE SAÚDAM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;436600;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100017700000;BOB CUSPE - NÓS NÃO GOSTAMOS DE GENTE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100278600000;FLOR NO QUINTAL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100132300000;MAR DE ZILA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100033900000;MATA GROSSA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;400000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100053500000;PEQUENO TRATADO DE PEQUENAS COISAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;260117;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100075400000;TEORIA DO ÍMPETO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;988507;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100104400000;TODA MENINA BAIANA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;226000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100141600000;TOTOTÓS CANOAS DO RIO SERGIPE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;33330;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100024000000;TRÊS VIDAS E UM SONHO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200127900000;A PEDRA E A PALAVRA - PADRE ANTÔNIO VIEIRA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;286000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200013100000;ANIMAIS NA PISTA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;46667;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200360000000;BAHIA DA FÉ AO PROFANO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;226000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200451700000;BRICHOS 3 - MEGAVIRUS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1000000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200143600000;CHEF JACK, O COZINHEIRO AVENTUREIRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1649946;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200073000000;DEUS TEM AIDS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200449200000;ESPUMAS AO VENTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;442099;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200203400000;FIM DE SEMANA NO PARAÍSO SELVAGEM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;983665;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200133200000;MÚLTIPLO VALDI;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;72588;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200497100000;O ANEL DE EVA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;733333;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200390700000;O QUE OS OLHOS NÃO VEEM...;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200212700000;OS PRIMEIROS SOLDADOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;900000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200442900000;PLACA-MÃE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1650000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200259700000;PLAUTO, UM  SOPRO MUSICAL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;330000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300006800000;SINDICATO DO FOLCLORE BRASILEIRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;121500;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300007600000;TODA NOITE ESTAREI LÁ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;180000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200210800000;UM SAMURAI EM SÃO PAULO;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;222012|121840;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200040500000;VALE NIGHT;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200426400000;VIDA DE ORQUESTRA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;178470;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200458400000;VIZINHOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;112500;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200324500000;ZOOPEDIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;631440;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300552600000;AVENTURAS DE AMÍ - 2º TEMPORADA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;910000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300142500000;CAINÃ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300422000000;CARTÓRIO DAS ALMAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;846142;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300502400000;CHAMA A BEBEL;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;1200000|400000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300095100000;COLETIVOS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;419867;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300433200000;DENTRO DE MIM;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300565300000;DESTINOS DA FÉ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;460800;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300529200000;DIAS DE TEMPESTADE;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;150000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300557100000;GUIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300242000000;INVASÃO MARCIANA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;142438;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300108000000;IYAS IDANAS - MULHERES DA COZINHA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;218150;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300136800000;JANGADEIROS DA SÃO PEDRO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;478270;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300252300000;LUTA DA ERVA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;180000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300154100000;MAMULENGO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300377600000;MARRAIA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;900000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300550100000;O CANTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300527700000;O IMPEACHMENT - SETEMBRO, 1957, SEXTA-FEIRA 13;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;300000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300131300000;O POETA QUE VEIO DO POVO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;328606;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300567400000;O POLICIAL E A PASTORA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300201900000;O SILÊNCIO DAS OSTRAS;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;1650000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300500100000;O SILÊNCIO DE EVA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;510000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300546600000;OPARÁ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;367469;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300488500000;PALAVRA PRESA;FSA SAV/MINC / Arranjos Regionais;2;ARRANJOS REGIONAIS|PRODAV 05;300000|100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300499000000;PASTRANA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;50000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300140800000;PRESENÇA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;180000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300535500000;PROCURA METEORANGO KID: VIVO OU MORTO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;370000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300339000000;SÉRGIO RICARDO: UMA OUTRA HISTÓRIA DO CINEMA NOVO;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;300000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300141200000;TENHO FÉ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300035300000;URSA;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;375000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300363900000;UTOPIA TROPICAL;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;833340;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300011000000;ZÉ;FSA SAV/MINC / Arranjos Regionais;1;ARRANJOS REGIONAIS;918010;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1600656800000;FIM DO MUNDO;FSA Comercialização / Distribuição;2;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO|FLUXO CONTÍNUO PRODUÇÃO PARA TELEVISÃO;1756500|800000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2100018500000;DETETIVES DO PRÉDIO AZUL 3 - UMA AVENTURA NO FIM DO MUNDO;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;1756500;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2000230700000;NAS ONDAS DA FÉ;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;1248812;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2300374700000;DE REPENTE, MISS!;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;275812;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2300247400000;MARINHEIRO DAS MONTANHAS;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;60000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2300402000000;UMA FADA VEIO ME VISITAR;FSA Comercialização / Distribuição;2;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO|SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA;2249250|1181853;False;True;Automático Bilheteria;maior chamada de produção;Comercialização;True
+B2300120800000;VAI TER TROCO;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;56600;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1700411300000;MÚSICA PARA QUANDO AS LUZES SE APAGAM;FSA Comercialização / Distribuição;2;COMERCIALIZAÇÃO EM CINEMA|ARRANJOS REGIONAIS;200000|150000;False;True;Arranjos Regionais;maior chamada de produção;Comercialização;True
+B1600779300000;NÓIS POR NÓIS;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;200000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1800090200000;AÇUCAR;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;100000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1900189100000;MISSÃO CUPIDO;FSA Comercialização / Distribuição;3;COMERCIALIZAÇÃO EM CINEMA|ARRANJOS REGIONAIS|PRODAV 06;500000|200000|200000;False;True;Arranjos Regionais;maior chamada de produção;Comercialização;True
+B1800245900000;O JUÍZO;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;500000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1800445500000;LOS SILENCIOS;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;200000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1800517200000;MEU NOME É DANIEL;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;200000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2000414400000;OLHA PRA ELAS;FSA Comercialização / Distribuição;1;COMERCIALIZAÇÃO EM CINEMA;100000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2300077800000;ANTES QUE ME ESQUEÇAM MEU NOME É EDY STAR - O FILME;FSA Comercialização / Distribuição;2;COMERCIALIZAÇÃO EM CINEMA|PRODAV 06;168950|144274;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B2300123500000;MADAME DUROCHER;FSA Complementação;2;COMPLEMENTAÇÃO|ARRANJOS REGIONAIS;456578|400000;True;False;Arranjos Regionais;maior chamada de produção;Complementação;True
+B2300338800000;PÉROLA;FSA Complementação;1;COMPLEMENTAÇÃO;753672;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2300261100000;RODEIO ROCK;FSA Complementação;1;COMPLEMENTAÇÃO;1796332;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2300551000000;SAUDOSA MALOCA;FSA Complementação;1;COMPLEMENTAÇÃO;1212735;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2100364800000;A MÃE;FSA Pontuação Festivais e Roteiro;2;CONCURSO PRODUÇÃO PARA CINEMA|ARRANJOS REGIONAIS;1680000|200000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200124400000;ABESTALHADOS 2;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;2008724;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200386600000;NA RÉDEA CURTA;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;2913000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200380100000;O PORÃO DA RUA DO GRITO;FSA Pontuação Festivais e Roteiro;3;CONCURSO PRODUÇÃO PARA CINEMA|ARRANJOS REGIONAIS|PRODAV 06;2000000|500001|411839;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300001100000;REGRA 34;FSA Pontuação Festivais e Roteiro;2;CONCURSO PRODUÇÃO PARA CINEMA|PRODAV 06;1900000|200000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200243000000;SINFONIA DE UM HOMEM COMUM;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;918500;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2400339600000;A VILÃ DAS NOVE;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;1000000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300201800000;JANGO NO EXÍLIO;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;392000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300065800000;O CIRCO VOLTOU;FSA Pontuação Festivais e Roteiro;1;CONCURSO PRODUÇÃO PARA CINEMA;1500000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300121300000;O PASTOR E O GUERRILHEIRO;FSA Pontuação Festivais e Roteiro;3;CONCURSO PRODUÇÃO PARA CINEMA|COMPLEMENTAÇÃO|ARRANJOS REGIONAIS;2000000|1451461|1335692;True;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300303300000;TPM! MEU AMOR;FSA Pontuação Festivais e Roteiro;2;CONCURSO PRODUÇÃO PARA CINEMA|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;5650000|85578;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200457400000;NOVO MUNDO, PINTURA DE RUA NA AMÉRICA LATINA;FSA Coprodução Internacional;1;COPRODUÇÃO INTERNACIONAL;264797;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2300240900000;AMOR REBELDE;FSA Coprodução Internacional;1;COPRODUÇÃO INTERNACIONAL;365880;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2300491600000;LA OTRA FORMA;FSA Coprodução Internacional;1;COPRODUÇÃO INTERNACIONAL;1000000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2300527400000;PUAN;FSA Coprodução Internacional;1;COPRODUÇÃO INTERNACIONAL CINEMA;1500000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2000497700000;ABE;FSA Automático Bilheteria;3;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 06|PRODAV 07;1276009|1000000|500000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000154900000;ALICE JÚNIOR;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;525500;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000070300000;DOIS MAIS DOIS;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;3000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000259000000;ZONA ÁRIDA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;396976;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100065700000;A ÚLTIMA FLORESTA;FSA Automático Bilheteria;3;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 07|PRODAV 06;512438|500000|500000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100306300000;ALDEIA NATAL;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;193500|75900;False;True;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100113200000;L.O.C.A.;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;4438846;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100010700000;LOOP;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|ARRANJOS REGIONAIS;858981|733333;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100259000000;MEDIDA PROVISÓRIA;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 06;1734649|1000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100347700000;O JARDIM SECRETO DE MARIANA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;3000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200063900000;1999 - A CONQUISTA DA AMÉRICA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300468500000;A FILHA DO PALHAÇO;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 05;1664223|100000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200343300000;A ÚLTIMA FESTA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;3000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200299300000;CORDIALMENTE TEUS;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1700000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200412200000;FAUSTO FAWCETT NA CABEÇA;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;975398|35000;False;True;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300288600000;FORAM OS SUSSURROS QUE ME MATARAM;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO;1000000|238532;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200089800000;O TRAIDOR;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 06;1567500|867500;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300008500000;VAI CORINTHIANS!;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300549200000;A ENTREGA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;811229;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300212900000;MEU NOME É GAL;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO;3000000|200000;False;True;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300283600000;O VAZIO DE DOMINGO À TARDE;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300493100000;SOB A VERDE NEBULOSA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;400000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000034100000;NO GOGÓ DO PAULINHO;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA|PRODAV 06;3500000|1000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000502900000;QUEM VAI FICAR COM MÁRIO;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA|PRODAV 06;3000000|523218;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2100036700000;O ESPAÇO INFINITO;FSA Automático Bilheteria;2;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA|ARRANJOS REGIONAIS;960000|800000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200065000000;AMADO;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA;3500000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200349500000;TRÊS TIGRES TRISTES;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA;873400;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300330000000;ENTRELINHAS;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA;2980176;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300349700000;NOSSO SONHO;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA;3000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300536800000;SALA ESCURA;FSA Automático Bilheteria;1;FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA - VIA DISTRIBUIDORA;2000000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B1402521900000;AS AVENTURAS DO AVIÃO VERMELHO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;829966;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500344400000;DEPOIS DE TUDO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;2000000|750000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402255700000;GALAXIAS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402378700000;INFÂNCIA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;600000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500543200000;LINDA DE MORRER;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402855900000;MARESIA;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|PRODECINE 03;500000|500000|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402201200000;MUITOS HOMENS NUM SÓ;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 03;1000000|200000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402652900000;NISE - O CORAÇÃO DA LOUCURA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402175100000;O MENINO NO ESPELHO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;750000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500177200000;PARA MINHA AMADA MORTA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 03;450000|200000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500585400000;QUASE MEMÓRIA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402237400000;SANGUE AZUL;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;750000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402332500000;TRINTA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1150000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402145600000;À QUEIMA ROUPA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;623000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600109600000;A FRENTE FRIA QUE A CHUVA TRAZ;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600585400000;A GLÓRIA E A GRAÇA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600032100000;AMOR EM SAMPA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;1000000|500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600041000000;BUGIGANGUE NO ESPAÇO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1000000|930000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500344800000;CAMPO GRANDE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500812200000;DOIDAS E SANTAS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1750000|600000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600264400000;PONTO ZERO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;400000|400000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500399400000;PROVA DE CORAGEM;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500309900000;QUALQUER GATO VIRA-LATA 2;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;1500000|59169;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500408100000;UM FILME DE CINEMA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 03;250000|200000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500870400000;VAI QUE DÁ CERTO 2;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1500672000000;ÓRFÃOS DO ELDORADO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;900000|550000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600287300000;DESERTO;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|PRODECINE 03;500000|316273|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600690600000;ERA O HOTEL CAMBRIDGE;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;550000|100000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700349800000;JOÃO, O MAESTRO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;2700000|279525;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700077100000;LA VINGANÇA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1600243000000;REDEMOINHO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 02;1000000|700000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800514700000;SOBRE RODAS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|COMERCIALIZAÇÃO EM CINEMA;240000|100000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700051600000;VAZANTE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;750000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700248900000;A SUPERFÍCIE DA SOMBRA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 03;700000|200000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800089800000;AMORES DE CHUMBO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;550000|190000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700602000000;ANTÁRTICA POR UM ANO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|COMERCIALIZAÇÃO EM CINEMA;950000|100000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700450500000;AS BOAS MANEIRAS;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|ARRANJOS REGIONAIS|PRODECINE 03;1500000|500000|200000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700189700000;EM UM MUNDO INTERIOR;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700151900000;O FILME DA MINHA VIDA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;2500000|768133;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700497900000;ORGANISMO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;900000|89420;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1700088100000;PELA JANELA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 03;1000000|100000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800469700000;A CABEÇA DE GUMERCINDO SARAIVA;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1500000|847531|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800516900000;A CIDADE DOS PIRATAS;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1000000|905830|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800458500000;A PRINCESA DE ELYMIA;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;897246|578000|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800459400000;AMAZÔNIA GROOVE;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|COMERCIALIZAÇÃO EM CINEMA;700000|198440;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800375900000;CANO SERRADO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;2000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800411600000;DESLEMBRO;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1000000|740000|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800466200000;GUERRA DE ALGODÃO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1200000|356546;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800491800000;LEGALIDADE;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1500000|448510|200000;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000003600000;ONDE DORMEM OS SONHOS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;230000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800567100000;TAIS & TAIANE;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODECINE 02|PRODECINE 04;899000|750000|448403;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800212800000;TALVEZ UMA HISTÓRIA DE AMOR;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;800000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900029000000;TITO E OS PÁSSAROS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;2000000|400000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800504700000;TORRE DAS DONZELAS;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|COMERCIALIZAÇÃO EM CINEMA|PRODECINE 04;500000|198880|111545;True;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900448200000;AOS OLHOS DE ERNESTO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1450000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900571100000;INCOMPATÍVEL;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;2500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900157600000;KARDEC;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODAV 06;3000000|1194084;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900548300000;LIMA BARRETO, AO TERCEIRO DIA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900618000000;MACABRO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODAV 06;2000000|1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900063700000;MUSSUM, UM FILME DO CACILDIS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|COMERCIALIZAÇÃO EM CINEMA;650000|130800;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900098100000;O PERGAMINHO VERMELHO;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1500000|500000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900347800000;PIEDADE;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|PRODAV 06|SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA;1000000|200000|100000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900284200000;PORFÍRIO DO AMARAL - A VERDADE SOBRE O SAMBA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;445000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900572600000;PUREZA;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|ARRANJOS REGIONAIS|PRODECINE 04;2000000|1450000|739073;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900331600000;SE ARREPENDIMENTO MATASSE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;980000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000152800000;CAFÉ, PEPI E LIMÃO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000096200000;EDUARDO E MÔNICA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1800000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000185600000;NIÈDE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;510000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000364100000;O CEMITÉRIO DAS ALMAS PERDIDAS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;1100000|600000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000525500000;O CLUBE DOS ANJOS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000320300000;O SENTIDO DA VIDA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;500000|250000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000106900000;OS ESCRAVOS DE JÓ;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1520000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000477300000;RIR PRA NÃO CHORAR;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000040200000;SOLTEIRA QUASE SURTANDO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2000436400000;TODOS OS MORTOS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODAV 06;1500000|184256;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100349700000;A QUEDA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100103100000;DIÁRIO DE VIAGEM;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;2000000|324588;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100271600000;DUETTO;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|COMERCIALIZAÇÃO - OPÇÃO DE INVESTIMENTO EM COMERCIALIZAÇÃO|SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA;1500000|589000|300000;False;True;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100218200000;MADALENA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1900000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100282200000;PLUFT, O FANTASMINHA;FSA Pontuação Bilheteria e Roteiro — Produtora;3;PRODECINE 01|FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 06;3000000|2840250|338524;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2100326700000;SWINGUEIRA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;250000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200405700000;A ILHA DOS ILÚS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200291400000;A LASANHA ASSASSINA - A REVOLTA DAS MASSAS;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODAV 06;2000000|486176;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200223200000;ASSALTO NA PAULISTA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;2000000|116898;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200409600000;ESTADOS UNIDOS DO BRASIL;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;560000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200307700000;O ALECRIM E O SONHO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1200000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200080600000;O PAI DA RITA;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1250000|1000000;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2200266500000;PORTO PRÍNCIPE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300257900000;A ESTAÇÃO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;800000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300451700000;A MULHER SEM CHÃO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;330000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300486200000;CEDO DEMAIS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;2000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300282000000;DE LONGE TODA SERRA É AZUL;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;700000|399833;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300201100000;DERRAPADA;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300060700000;MAIS PESADO É O CÉU;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1250000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300099200000;MORCEGO NEGRO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;400000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300200700000;MUNDO PROIBIDO;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;2500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300442100000;OTHELO, O GRANDE;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|ARRANJOS REGIONAIS;350000|300000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300258300000;QUARTA-FEIRA DE CINZAS;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1000000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300382200000;RETRATO DE UM CERTO ORIENTE;FSA Pontuação Bilheteria e Roteiro — Produtora;1;PRODECINE 01;1500000;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B2300105700000;TESOURO NATTERER;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODECINE 01|PRODECINE 04;1000000|698884;True;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1402125800000;A ESTRADA 47;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1800000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1402131600000;CASA GRANDE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 03;950000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1402406800000;IRMÃ DULCE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1402704900000;LOUCAS PRA CASAR;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1402689400000;O VENDEDOR DE PASSADOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 04;2000000|350000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500554400000;A ESPERANÇA É A ÚLTIMA QUE MORRE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1750000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500591500000;A FLORESTA QUE SE MOVE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500572900000;AS AVENTURAS DO PEQUENO COLOMBO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500843400000;ASPIRANTES;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 03;342000|100000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500873900000;ATRAVÉS DA SOMBRA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 03;1240000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500711400000;BEATRIZ;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 01;500000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1600100300000;O ESCARAVELHO DO DIABO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;2000000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500585100000;QUE HORAS ELA VOLTA?;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1500899800000;REZA A LENDA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1600036800000;ZOOM;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|ARRANJOS REGIONAIS;2000000|517002|200000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700162000000;ALTAS EXPECTATIVAS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|PRODECINE 03;1500000|852800|500000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700386500000;COMO SE TORNAR O PIOR ALUNO DA ESCOLA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 04;2500000|1000000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1600680100000;ELIS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2710000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1600567900000;O SHAOLIN DO SERTÃO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1750000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700011500000;PEIXONAUTA: O FILME;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 04;1800000|800000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700177700000;UM TIO QUASE PERFEITO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;2200000|100000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800206400000;UMA NOITE NÃO É NADA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 04;800000|632942;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1600564100000;VERMELHO RUSSO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700353800000;BERENICE PROCURA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|PRODECINE 03;2000000|1180000|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700119200000;COMO NOSSOS PAIS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700395900000;DUAS DE MIM;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;3000000|638360;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700109600000;GOSTOSAS, LINDAS E SEXIES;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700571300000;HAPPY HOUR;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1500000|900000|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700600100000;MINHA FAMA DE MAU;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700168200000;NINGUÉM ENTRA, NINGUÉM SAI;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700260300000;O BANQUETE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|PRODECINE 03;750000|347635|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700052200000;O CRIME DA GÁVEA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700513700000;O NOME DA MORTE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;2000000|400000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800202100000;PARAÍSO PERDIDO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODAV 06|PRODECINE 03;2000000|1086229|500000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1700480900000;ZAMA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODAV 06|PRODECINE 03;1393941|200000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800089700000;A MULHER DO MEU MARIDO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODAV 06|COMERCIALIZAÇÃO EM CINEMA;1500000|358532|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900019800000;ALBATROZ;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800130000000;ALGUÉM COMO EU;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800166700000;ALÉM DO HOMEM;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODAV 07|PRODAV 06;1168640|1000000|326523;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800106900000;BENZINHO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;4;PRODECINE 02|PRODECINE 04|PRODAV 06|COMERCIALIZAÇÃO EM CINEMA;1500000|379538|300000|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900048500000;CINDERELA POP;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2700000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800607100000;CINE MARROCOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;573514;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800216200000;CORRENDO ATRÁS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|ARRANJOS REGIONAIS|PRODAV 06;2500000|320081|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900005600000;CRAVOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;257180|199850;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800422000000;DE VOLTA AO MARACANÃ;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1600000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800502000000;DOMINGO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;1300000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800279000000;JOVENS POLACAS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;1000000|199450;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800603500000;MEU AMIGO FELA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;400000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800269200000;MULHERES ALTERADAS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 07;3000000|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800307900000;O CANDIDATO HONESTO 2;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;3000000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800000800000;O GRANDE CIRCO MISTICO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 03;3000000|500000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800115600000;O HOMEM PERFEITO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800307200000;SUEÑO FLORIANÓPOLIS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;500000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800410600000;TUDO ACABA EM FESTA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800580500000;UMA PITADA DE SORTE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODECINE 04;3000000|1000000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900240000000;ANNA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900232600000;BACURAU;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 07;1000000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000006000000;DE PERTO ELA NÃO É NORMAL;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;3000000|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900463100000;FLUXOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;600994;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900075800000;MARIA DO CARITÓ;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;2000000|700000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000006700000;MARIGHELLA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA|PRODAV 07;3000000|1420000|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900341900000;MÚSICA PARA MORRER DE AMOR;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900572800000;NOITES DE ALFACE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1340595;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900042200000;O CORPO É NOSSO!;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;750000|99930;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900589200000;OS SALAFRÁRIOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;3000000|982500;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900508000000;PIXINGUINHA, UM HOMEM CARINHOSO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900417800000;SEGUNDO TEMPO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1920036|1353267|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900439300000;TERAPIA DO MEDO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;3000000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900235500000;TURMA DA MÔNICA - LAÇOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900486900000;UM DIA QUALQUER;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900454200000;VENEZA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;3000000|1265133;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1900380000000;VOU NADAR ATÉ VOCÊ;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;1000000|150559;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000440700000;DENTE POR DENTE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;2087500|1350000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000240300000;JESUS KID;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1500000|915000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000047900000;JÚPITER;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|FLUXO CONTÍNUO PRODUÇÃO PARA CINEMA;1998954|396618;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000042800000;LAMENTO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;996350;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000360900000;MIÚDA E O GUARDA-CHUVA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;683000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000127500000;NADA É POR ACASO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2715816;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000163800000;OS ESPETACULARES;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;2500000|2500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000004600000;SOLDADOS DA BORRACHA - OS HERÓIS ESQUECIDOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;299230;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000340700000;SUJEITO OCULTO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2377727;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2000065800000;TARSILINHA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100115300000;AOS NOSSOS FILHOS;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;2000000|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100433800000;CARRO REI;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;1401902|956422;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100408300000;DESERTO PARTICULAR;FSA Pontuação Bilheteria e Roteiro — Distribuidora;3;PRODECINE 02|SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|PRODAV 06;1500000|795521|14848;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100260000000;DIÁRIOS DE INTERCÂMBIO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;3000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100027200000;JAIR RODRIGUES - DEIXA QUE DIGAM;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;500000|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100070100000;O SILÊNCIO DA CHUVA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;3000000|1570357;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100017600000;O TREM DA UTOPIA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1016631;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2100507100000;OS DRAGÕES;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;1487606|200000;False;True;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200102500000;AS ÓRFÃS DA RAINHA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;1999990|349185;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200375000000;CHICO PARA SEMPRE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 06;750000|399312;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200202000000;DE REPENTE DRAG;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2334150;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200050700000;MEU AMIGÃOZÃO - O FILME;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200356700000;SOCIEDADE DO MEDO;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;940917;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200065900000;SOL;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;2000000|200000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2200347700000;TEMPOS DE BARBÁRIE - ATO I: TERAPIA DA VINGANÇA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|PRODAV 07;3000000|500000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2300247700000;AGRESTE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;2;PRODECINE 02|ARRANJOS REGIONAIS;2012034|530733;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2300468900000;ATÉ QUE A MÚSICA PARE;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2300408500000;LILITH;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;1000000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B2300375400000;PRINCESA ADORMECIDA;FSA Pontuação Bilheteria e Roteiro — Distribuidora;1;PRODECINE 02;2700000;False;False;Bilheteria · Distribuidora;maior chamada de produção;Bilheteria · Distribuidora;False
+B1800001000000;EX-PAJÉ;FSA Comercialização / Distribuição;1;PRODECINE 03;100000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1700339700000;HISTORIETAS ASSOMBRADAS - O FILME;FSA Comercialização / Distribuição;1;PRODECINE 03;500000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1700184000000;NOVA AMSTERDAM;FSA Comercialização / Distribuição;1;PRODECINE 03;67000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1700584300000;O BEIJO NO ASFALTO;FSA Comercialização / Distribuição;1;PRODECINE 03;100000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1800132900000;TINTA BRUTA;FSA Comercialização / Distribuição;1;PRODECINE 03;100000;False;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Comercialização;True
+B1500113300000;LOVE FILM FESTIVAL;FSA Complementação;2;PRODECINE 04|PRODECINE 03;342592|100000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1402192700000;OS AMIGOS;FSA Complementação;2;PRODECINE 04|PRODECINE 03;658204|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1402146300000;PRAIA DO FUTURO;FSA Complementação;2;PRODECINE 04|PRODECINE 02;1234348|1000000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Complementação;True
+B1600245600000;ANTES O TEMPO NÃO ACABAVA;FSA Complementação;2;PRODECINE 04|PRODECINE 03;493772|199800;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500464600000;BRUXARIAS;FSA Complementação;2;PRODECINE 04|PRODECINE 03;343281|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500818400000;EM TRÊS ATOS;FSA Complementação;1;PRODECINE 04;350000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500651700000;MATE-ME POR FAVOR;FSA Complementação;3;PRODECINE 04|PRODECINE 02|PRODECINE 03;543153|500000|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Complementação;True
+B1600033400000;MEU AMIGO HINDU;FSA Complementação;1;PRODECINE 04;2300000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500701300000;OPERAÇÕES ESPECIAIS (EX BOLETIM DE OCORRÊNCIA B.O);FSA Complementação;1;PRODECINE 04;1135416;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500868700000;ORAÇÃO DO AMOR SELVAGEM;FSA Complementação;1;PRODECINE 04;494503;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1500778300000;S.O.S. MULHERES AO MAR 2;FSA Complementação;1;PRODECINE 04;1400000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1600043800000;TÔ RYCA!;FSA Complementação;2;PRODECINE 04|ARRANJOS REGIONAIS;1700000|1306108;True;False;Arranjos Regionais;maior chamada de produção;Complementação;True
+B1600439400000;A TERRA VERMELHA;FSA Complementação;1;PRODECINE 04;667200;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700402100000;BLITZ;FSA Complementação;1;PRODECINE 04;745779;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700578900000;CAMPUS SANTO;FSA Complementação;1;PRODECINE 04;1289204;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700028400000;LAS INESES;FSA Complementação;2;PRODECINE 04|PRODECINE 03;261716|100000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1600564300000;LUA EM SAGITÁRIO;FSA Complementação;1;PRODECINE 04;570307;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700479800000;MEU MUNDIAL;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;239667|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700477300000;DONA FLOR E SEUS DOIS MARIDOS;FSA Complementação;1;PRODECINE 04;1328471;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800029600000;O OLHO E A FACA;FSA Complementação;3;PRODECINE 04|PRODECINE 02|PRODECINE 03;1246640|1000000|198990;True;True;Bilheteria · Distribuidora;maior chamada de produção;Complementação;True
+B1700405200000;PRAÇA PARIS;FSA Complementação;3;PRODECINE 04|PRODAV 07|PRODECINE 03;1000000|700000|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800131200000;A TROPA DE TRAPO - NA SELVA DO ARCO-ÍRIS;FSA Complementação;1;PRODECINE 04;140937;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800262800000;A VOZ DO SILÊNCIO;FSA Complementação;2;PRODECINE 04|PRODECINE 03;459745|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800556100000;CHORAR DE RIR;FSA Complementação;1;PRODECINE 04;3000000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800445100000;DIAMANTINO;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;379250|136772;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800300700000;MISSÃO 115;FSA Complementação;1;PRODECINE 04;124000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1900019900000;O GALÃ;FSA Complementação;1;PRODECINE 04;1454847;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800346100000;O SEGREDO DE DAVI;FSA Complementação;3;PRODECINE 04|PRODECINE 02|COMERCIALIZAÇÃO EM CINEMA;799950|700000|200000;True;True;Bilheteria · Distribuidora;maior chamada de produção;Complementação;True
+B1800612900000;O ÚLTIMO JOGO;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;1122173|100000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800187200000;RAIVA;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;231596|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1800285700000;TUDO POR UM POP STAR;FSA Complementação;3;PRODECINE 04|PRODECINE 01|PRODAV 06;1187647|1000000|962658;True;False;Bilheteria · Produtora;maior chamada de produção;Complementação;True
+B1900588900000;MADAME;FSA Complementação;1;PRODECINE 04;198947;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1900245500000;ÁGUAS SELVAGENS;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;640232|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2000102800000;CORRENDO POR UM SONHO;FSA Complementação;1;PRODECINE 04;914266;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2000277900000;MINHA FAMILIA PERFEITA;FSA Complementação;1;PRODECINE 04;300000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2100282100000;A PRIMEIRA MORTE DE JOANA;FSA Complementação;2;PRODECINE 04|COMERCIALIZAÇÃO EM CINEMA;588690|200000;True;True;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B2100408100000;O LIVRO DOS PRAZERES;FSA Complementação;3;PRODECINE 04|PRODECINE 02|ARRANJOS REGIONAIS;1340754|800000|200000;True;False;Bilheteria · Distribuidora;maior chamada de produção;Complementação;True
+B2100536000000;TROMBA TREM - O FILME;FSA Complementação;4;PRODECINE 04|PRODECINE 01|PRODAV 06|ARRANJOS REGIONAIS;1534456|1500000|1220544|200000;True;False;Bilheteria · Produtora;maior chamada de produção;Complementação;True
+B2300440200000;NAHUEL E O LIVRO MAGICO;FSA Complementação;2;PRODECINE 04|PRODECINE 10;392374|329690;True;False;Coprodução Intl;maior chamada de produção;Complementação;True
+B2300135700000;VIDAS DESCARTÁVEIS;FSA Complementação;1;PRODECINE 04;400000;True;False;Add-on FSA (Compl./Comerc.);só add-on no FSA (produção externa);Complementação;True
+B1700249500000;COMBOIO DE SAL E AÇÚCAR;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;510132|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700596400000;DIAS VAZIOS;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;2040762|150000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1600708000000;FALA COMIGO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;983310|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1600420900000;MULHER DO PAI;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;1021701|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700307900000;A SOMBRA DO PAI;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1622587;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700222300000;ABAIXO A GRAVIDADE;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|ARRANJOS REGIONAIS;2249984|133333;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700509000000;BIO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;373950|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700449500000;CONSTRUINDO PONTES;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;497012;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700112000000;CORPO ELÉTRICO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;548500|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700305400000;GABRIEL E A MONTANHA;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;1778000|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800002100000;MATA NEGRA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;629061;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700104200000;PENDULAR;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|PRODECINE 03;853865|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800019400000;SOBRADINHO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;300000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1700501700000;UNICÓRNIO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;1888260|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800145300000;A TORRE;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;896395;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900027100000;AINDA TEMOS A IMENSIDÃO DA NOITE;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;2248500|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800092400000;MARE NOSTRUM;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800097300000;MEIO IRMÃO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1220019;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800204300000;MORMAÇO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;2142014|179551;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900039300000;SIRON. TEMPO SOBRE TELA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;548723;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900486200000;A FEBRE;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2040000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900263400000;BREVE MIRAGEM DE SOL;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1593909;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900381200000;CASA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;945000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900148000000;CORA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;469404;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900545200000;DESTERRO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|ARRANJOS REGIONAIS;1206500|100000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900172900000;GRETA;FSA Pontuação Festivais e Roteiro;3;PRODECINE 05|PRODAV 06|COMERCIALIZAÇÃO EM CINEMA;1290178|200000|200000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900205500000;O OUTRO LADO DA MEMÓRIA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1133000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900121000000;O RIO DE JANEIRO DE HO CHI MINH;FSA Pontuação Festivais e Roteiro;3;PRODECINE 05|ARRANJOS REGIONAIS|COMERCIALIZAÇÃO EM CINEMA;890296|200000|199450;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900235800000;OS SONÂMBULOS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;478634;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900299800000;RAIA 4;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1651000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900332300000;RIO DE VOZES;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;799970;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900425300000;RODANTES;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1586823;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900484900000;SANTIAGO DE LAS AMERICAS OU O OLHO DO TERCEIRO MUNDO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;995128;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900381500000;SEM SEU SANGUE;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2073454;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900597200000;SERTÂNIA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1410695;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900035900000;SOLDADO ESTRANGEIRO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;746030|100000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900623600000;UM ANIMAL AMARELO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2240150;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1900272800000;UMA BAÍA;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;500000|100000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000263300000;5 CASAS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;492000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000338900000;AOS PEDAÇOS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000297200000;ESPERA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;748561;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000177900000;KEVIN;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;484000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000313600000;LUZ NOS TRÓPICOS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2247415;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000076800000;MATO SECO EM CHAMAS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000319500000;NHEENGATU;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;384432;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000361300000;O REFLEXO DO LAGO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;538780;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000346300000;PAIXÕES RECORRENTES;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000044900000;PARA ONDE VOAM AS FEITICEIRAS;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|ARRANJOS REGIONAIS;965080|200000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2000473600000;VENTO SECO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1498000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2100535800000;A VIDA É DA COR QUE PINTAMOS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;930000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2100105600000;FORTALEZA HOTEL;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1974200;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2100027500000;NATUREZA MORTA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;1499300;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200146400000;A FELICIDADE DAS COISAS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200214700000;ADEUS CAPITÃO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;715801;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200023200000;ALDEOTAS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2200000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200132800000;BEM VINDOS DE NOVO;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|ARRANJOS REGIONAIS;200250|150000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300031800000;BIZARROS PEIXES DAS FOSSAS ABISSAIS;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;760000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200004100000;CANÇÃO AO LONGE;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|ARRANJOS REGIONAIS;938400|600000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200295300000;CASA VAZIA;FSA Pontuação Festivais e Roteiro;2;PRODECINE 05|COMERCIALIZAÇÃO EM CINEMA;1481447|100000;False;True;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2200297400000;LAVRA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;786270;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300051700000;FOGARÉU;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2242900;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300180200000;LAMPIÃO, GOVERNADOR DO SERTÃO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;499998;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300537000000;LONGE DO PARAÍSO;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B2300041800000;TIA VIRGÍNIA;FSA Pontuação Festivais e Roteiro;1;PRODECINE 05;2250000;False;False;Festivais · Pontuação;maior chamada de produção;Festivais · Pontuação;False
+B1800115900000;"""EL HOMBRE QUE CUIDA""";FSA Coprodução Internacional;2;PRODECINE 06|PRODECINE 03;250000|200000;False;True;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1700396100000;NINGUÉM ESTÁ OLHANDO;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1800293900000;AS HERDEIRAS;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1900036000000;LIBERDADE É UMA GRANDE PALAVRA;FSA Coprodução Internacional;1;PRODECINE 06;175000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1800468000000;PESSOAS HUMANAS;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1800215300000;UMA VIAGEM INESPERADA;FSA Coprodução Internacional;2;PRODECINE 06|PRODECINE 03;250000|100000;False;True;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1900322000000;VIVIR ALLÍ NO ES EL INFIERNO ES EL FUEGO DEL DESIERTO.LA PLENITUD DE LA VIDA QUEDÓ AHÍ COMO UN ÁRBOL;FSA Coprodução Internacional;1;PRODECINE 06;136099;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2000043400000;A OUTRA PELE;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1900541900000;BREVE HISTÓRIA DO PLANETA VERDE;FSA Coprodução Internacional;2;PRODECINE 06|ARRANJOS REGIONAIS;250000|33000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1900050800000;POETAS DO CÉU;FSA Coprodução Internacional;1;PRODECINE 06;175000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2000556700000;A BARQUEIRA;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2000184900000;A HISTÓRIA DO MEU NOME;FSA Coprodução Internacional;1;PRODECINE 06;167758;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100148000000;TANTAS ALMAS;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2200208200000;LAS VACACIONES DE HILDA;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2300174400000;FANTASMA;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2300315200000;LA ESTRATÉGIA DEL MERO;FSA Coprodução Internacional;1;PRODECINE 06;250000;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1800358900000;A FAMÍLIA SUBMERSA;FSA Coprodução Internacional;2;PRODECINE 07|COMERCIALIZAÇÃO EM CINEMA;796025|200000;False;True;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100075500000;LAMAÇAL;FSA Coprodução Internacional;1;PRODECINE 07;821925;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2000332000000;AVÓ DEZANOVE E O SEGREDO DO SOVIÉTICO;FSA Coprodução Internacional;1;PRODECINE 08;500040;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100120000000;PEDRO E INÊS;FSA Coprodução Internacional;1;PRODECINE 08;487635;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100241700000;ESCRITA ÍNTIMA;FSA Coprodução Internacional;1;PRODECINE 08;467910;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100277700000;LA TEORIA DE LOS VIDRIOS ROTOS;FSA Coprodução Internacional;1;PRODECINE 09;468495;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2100119800000;MATEÍNA;FSA Coprodução Internacional;1;PRODECINE 09;500040;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B2200298400000;O BAILE DOS 41;FSA Coprodução Internacional;1;PRODECINE 12;561270;False;False;Coprodução Intl;maior chamada de produção;Coprodução Intl;False
+B1500542700000;TORI, A DETETIVE;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODUÇÃO CINEMA|PRODAV 01;5000000|1222300;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1800078700000;TORI, A DETETIVE;FSA Pontuação Bilheteria e Roteiro — Produtora;2;PRODUÇÃO CINEMA|PRODAV 01;5000000|1222300;False;False;Bilheteria · Produtora;maior chamada de produção;Bilheteria · Produtora;False
+B1900209700000;PACARRETE;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000142400000;MARES DO DESTERRO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000484500000;O NOVELO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000461200000;VALENTINA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200250200000;NOITES ALIENÍGENAS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1231960;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200012900000;REPRESA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300179900000;NADA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 01;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900300800000;BENTO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000141100000;ALÉM DA LENDA - FILME;FSA SAV/MINC / Arranjos Regionais;2;SAV/MINC 02|PRODAV 09;1113223|455000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000100300000;PASSAGEM SECRETA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1162960;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000378500000;PEQUENOS GUERREIROS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000292100000;PIRÔCO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000202100000;POROPOPÓ;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100262500000;DESPEDIDA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200145800000;A CAVERNA DE ESTELA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200149500000;ALICE DOS ANJOS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;848828;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200087600000;CHICO - MEU AMIGO INVISÍVEL;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;99138;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200136500000;FABULOSOS JOÃO E MARIA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200047500000;HOSPITAL DE BRINQUEDOS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300513100000;OMEGATRONE - O PODER DOS 5 REINOS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 02;99940;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900050700000;A TERRA NEGRA DOS KAWA;FSA SAV/MINC / Arranjos Regionais;2;SAV/MINC 03|COMERCIALIZAÇÃO EM CINEMA;1405705|200000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900059200000;MUDANÇA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1499347;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900533600000;EU, NIRVANA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900307100000;NO CORAÇÃO DO MUNDO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;321498;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900410500000;TRÊS VERÕES;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1200000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000386800000;CABEÇA DE NÊGO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000312900000;MARTE UM;FSA SAV/MINC / Arranjos Regionais;2;SAV/MINC 03|ARRANJOS REGIONAIS;1250000|100000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2000402100000;UM DIA COM JERUSA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1250000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100339300000;PATERNO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;952295;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300289500000;DENTRO DA CAIXINHA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;600000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300561400000;O MENINO MAIS RICO DO MUNDO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 03;1000000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800264200000;CARVANA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;652864;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800515000000;CHUVA É CANTORIA NA ALDEIA DOS MORTOS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;997550;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800150600000;O CHALÉ É UMA ILHA BATIDA DE VENTO E CHUVA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;824837;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1800561900000;SERVIDÃO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;1000000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900203000000;CHÃO;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;512631;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900189800000;EMPATE;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;672980;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900093600000;ESTOU ME GUARDANDO PARA QUANDO O CARNAVAL CHEGAR;FSA SAV/MINC / Arranjos Regionais;2;SAV/MINC 04|COMERCIALIZAÇÃO EM CINEMA;999400|100000;False;True;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B1900623300000;OS OSSOS DA SAUDADE;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;669972;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100371800000;MARIAS;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;816988;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200361800000;MÔA, RAIZ AFRO MÃE;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300366600000;KUNHÃ KARAI E AS NARRATIVAS DA TERRA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 04;500000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100362700000;SEBASTIANA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 07;346000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2200497200000;ODOYÁ;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 07;344670;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300286800000;ÁRIA;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 07;350000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300531100000;POING;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 08;1000000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2300322500000;TRONIK;FSA SAV/MINC / Arranjos Regionais;1;SAV/MINC 08;1000000;False;False;Arranjos Regionais;maior chamada de produção;Arranjos Regionais;False
+B2100427500000;NOITE DE FOGO;FSA Automático Festivais;2;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|PRODAV 06;612966|233517;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2200442800000;MEDUSA;FSA Automático Festivais;3;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA|SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL TV E VOD;2342135|346918|141496;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2300440300000;A FESTA DE LÉO;FSA Automático Festivais;2;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|PRODAV 06;1500000|8577;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2300345600000;ANGELA;FSA Automático Festivais;2;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|PRODAV 06;624569|300000;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2300484100000;EROS;FSA Automático Festivais;1;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO;548881;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2300130000000;O ULTIMO EPISÓDIO;FSA Automático Festivais;2;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO|ARRANJOS REGIONAIS;994166|600000;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B2300165900000;PORNOMELANCOLIA;FSA Automático Festivais;1;SUPORTE AUTOMÁTICO - DESEMPENHO ARTÍSTICO;294752;False;False;Automático Festivais;maior chamada de produção;Automático Festivais;False
+B1900363600000;MARÉS;FSA Automático Bilheteria;1;SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA;54054;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2000484000000;A SOGRA PERFEITA;FSA Automático Bilheteria;2;SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA|PRODAV 06;1809115|1190885;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2200393900000;ME CHAMA QUE EU VOU;FSA Automático Bilheteria;1;SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA;50000;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False
+B2300472200000;Ó PAÍ, Ó 2;FSA Automático Bilheteria;3;SUPORTE AUTOMÁTICO - DESEMPENHO COMERCIAL CINEMA|CINEMA VIA DISTRIBUIDORA|PRODAV 06;600708|200000|199292;False;False;Automático Bilheteria;maior chamada de produção;Automático Bilheteria;False

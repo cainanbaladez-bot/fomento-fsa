@@ -1,0 +1,20 @@
+{
+  "obras_fomento": 1848.0,
+  "obras_cinema": 687.0,
+  "inv_fsa_cinema_mi": 1119.335,
+  "inv_total_cinema_mi": 1925.263,
+  "bilheteria_cinema_mi": 527.894,
+  "janelas_crt_cinema_mi": 86.225,
+  "receita_crt_cinema_mi": 614.119,
+  "roi_dom_fsa_crt_cinema": 0.549,
+  "roi_dom_fsa_obs_cinema": 0.472,
+  "pct_sintetica_cinema": 14.04,
+  "empresas": 445.0,
+  "admEU_mil": 1002.16,
+  "publico_dom_mi": 26.55,
+  "sessoes_mi": 0.889,
+  "municipios_mediana": 10.0,
+  "n_obras_com_publico": 504.0,
+  "cobertura_publico_pct": 73.362,
+  "publico_por_mi_fsa": 23719.518
+}

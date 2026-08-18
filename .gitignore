@@ -1,0 +1,71 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# O que este repositório publica
+#
+#   · as BASES canônicas (outputs/bases) e os insumos para reproduzi-las
+#   · os SCRIPTS que vão do RIDAB às bases e das bases ao painel de dados
+#   · dois artefatos prontos: site/ensaio.html (o texto) e site/evidencias.html
+#
+# O que NÃO publica: nada que gere ou guarde texto intermediário. O ensaio entra
+# como HTML final; a fonte, os builders de texto e os DOCX de trabalho ficam de
+# fora (decisão do autor, 2026-08-17).
+# ══════════════════════════════════════════════════════════════════════════════
+
+# ── Segredos ──────────────────────────────────────────────────────────────────
+.env.tmdb
+.env
+cache/
+
+# ── Dados brutos do RIDAB (117 MB; baixáveis do portal, ver README) ───────────
+data/ridab_cleaned/
+data/ridab_raw/
+
+# ── Camada de TEXTO: fonte, builders e intermediários ─────────────────────────
+site_src/
+textos-docx/
+site/index.html
+scripts/20_site_index.py
+scripts/21_site_ensaio.py
+scripts/30_docx_gerar.py
+scripts/31_docx_importar.py
+scripts/33_docx_parte_curtas.py
+scripts/34_docx_quebras_barreira.py
+scripts/35_docx_curtas_reescrita.py
+scripts/36_docx_parte3_curtas.py
+scripts/37_docx_capacidade_carga.py
+scripts/38_docx_pergunta7.py
+scripts/ancoras.py
+scripts/15_ancoras.py
+scripts/18_curadoria.py
+scripts/19_viz_paragrafo.py
+referencia/curadoria_figuras.csv
+outputs/curadoria/
+outputs/curtas_estudo.md
+docs/
+CLAUDE.md
+PLANO.md
+
+# ── Histórico (painéis e textos antigos, ~220 MB) ─────────────────────────────
+/legado/
+scripts/legado/
+docs/historico/
+
+# ── Ambiente e temporários ────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# ── Saídas intermediárias grandes ─────────────────────────────────────────────
+# As bases canônicas (outputs/bases) e as tabelas que o painel lê ficam versionadas.
+outputs/figuras/
+outputs/figs_docx/
+outputs/eda/
+outputs/tabelas/base_financiamento_obra.csv
+outputs/tabelas/receita_estimada_por_obra.csv
+outputs/tabelas/base_bilheteria_obra.csv
+outputs/tabelas/master_obra_fsa.csv
+outputs/tabelas/curtas_universo.csv

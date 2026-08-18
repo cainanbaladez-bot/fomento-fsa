@@ -1,0 +1,72 @@
+﻿diretor,diretor_ridab,confianca,ano_curta,n_curtas,premiado,festivais,n_longas,ano_1o_longa,gap,maduro,tinha_longa_antes,d1_qualquer_longa,d2_europa,d2_europa_pos,d3_festival,d3_festival_pos
+Kleber Mendonça Filho,KLEBER MENDONCA VASCONCELLOS FILHO,alta,2004,1,False,Cannes,6,2008,4.0,True,False,True,True,True,True,True
+Esmir Filho,ESMIR OLIVEIRA FILHO,alta,2006,2,True,Cannes,4,2009,3.0,True,False,True,True,True,False,False
+Juliana Rojas,JULIANA ARAUJO ROJAS,alta,2007,1,False,Cannes,4,2010,3.0,True,False,True,True,True,True,True
+Felipe Sholl,FELIPE SHOLL MACHADO,alta,2007,1,True,Berlinale,2,2016,9.0,True,False,True,False,False,False,False
+Marco Dutra,MARCO AURELIO FERREIRA DUTRA,alta,2007,1,False,Cannes,6,2010,3.0,True,False,True,True,True,True,True
+Caetano Gotardo,CAETANO GOTARDO SOARES,alta,2008,1,False,Cannes,3,2012,4.0,True,False,True,True,True,True,True
+Eva Randolph,EVA RANDOLPH,alta,2008,2,True,Locarno,0,,,True,False,False,False,False,False,False
+Tião,,sem_correspondencia,2008,2,True,Cannes,0,,,True,False,False,False,False,False,False
+Marcelo Caetano,MARCELO BATISTA CAETANO,alta,2012,1,False,Rotterdam,2,2017,5.0,True,False,True,True,True,True,True
+Gabriel Martins,GABRIEL MARTINS ALVES,alta,2012,1,True,Rotterdam,4,2018,6.0,True,False,True,True,True,True,True
+Guto Parente,GUSTAVO PARENTE LIMA,alta,2012,1,False,Locarno,11,2010,1.0,True,True,True,False,False,False,False
+Fáuston da Silva,FAUSTON PEREIRA SILVA,alta,2012,1,True,Clermont-Ferrand,1,2024,12.0,True,False,True,False,False,False,False
+Thais Fujinaga,THAIS FUJINAGA,alta,2012,1,True,Berlinale,1,2022,10.0,True,False,True,False,False,False,False
+Aly Muritiba,ALYSSON SILVA MURITIBA,alta,2013,2,False,Cannes | Veneza,8,2011,0.0,True,True,True,True,True,True,True
+André Novais Oliveira,ANDRE NOVAIS OLIVEIRA,alta,2013,2,False,Cannes,4,2014,1.0,True,False,True,True,True,False,False
+Ricardo Alves Júnior,,sem_correspondencia,2013,1,True,Locarno,0,,,True,False,False,False,False,False,False
+Nara Normande,NARA BARRETO CAMPELLO NORMANDE,alta,2014,2,True,Annecy | Cannes,1,2024,10.0,True,False,True,True,True,False,False
+João Paulo Miranda Maria,JOAO PAULO MIRANDA MARIA,alta,2015,2,True,Cannes,1,2020,5.0,True,False,True,False,False,False,False
+Joel Pizzini,JOEL PIZZINI FILHO,alta,2015,1,False,Berlinale,10,2003,4.0,True,True,True,False,False,False,False
+Marja Calafange,MARJA CALAFANGE COELHO,alta,2015,1,False,Veneza,0,,,True,False,False,False,False,False,False
+Rosana Urbes,ROSANA URBES,alta,2015,2,True,Annecy,0,,,True,False,False,False,False,False,False
+Diego Zon,DIEGO MARIM ZON,alta,2015,1,False,Berlinale,1,2025,10.0,True,False,True,False,False,False,False
+Fellipe Fernandes,FELLIPE LUIS MELO FERNANDES,alta,2016,1,False,Cannes,2,2017,1.0,True,False,True,True,True,False,False
+Rodrigo Faustini,RODRIGO FAUSTINI SANTOS,alta,2018,1,True,Annecy,0,,,True,False,False,False,False,False,False
+Bárbara Wagner,BARBARA WAGNER,alta,2018,1,False,Berlinale,0,,,True,False,False,False,False,False,False
+Carolina Markowicz,CAROLINA MARKOWICZ BASTOS,alta,2018,1,True,Cannes,2,2022,4.0,True,False,True,True,True,True,True
+Benjamin de Burca,,sem_correspondencia,2018,1,False,Berlinale,0,,,True,False,False,False,False,False,False
+Joseph Specker Nys,JOSEPH SPECKER NYS,alta,2018,1,False,Annecy,0,,,True,False,False,False,False,False,False
+Marco Antônio Pereira,MARCO ANTONIO CAMPOS PEREIRA,media,2018,1,False,Berlinale,3,2013,1.0,True,True,True,False,False,False,False
+Ana Flávia Cavalcanti,ANA FLAVIA CAVALCANTI RIBEIRO,alta,2019,1,False,Berlinale,1,2024,5.0,False,False,True,False,False,False,False
+Ana Vaz,,sem_correspondencia,2019,1,False,Berlinale | Rotterdam,0,,,False,False,False,False,False,False,False
+Julia Zakia,JULIA ZAKIA ORLANDI,alta,2019,1,False,Berlinale,2,2013,4.0,False,True,True,False,False,False,False
+Bruno Castro,BRUNO CASTRO CARDOSO,baixa,2019,1,False,Annecy,1,2019,0.0,False,False,True,False,False,False,False
+Thiago Minamisawa,THIAGO AMARAL MINAMISAWA,alta,2019,1,False,Annecy,0,,,False,False,False,False,False,False,False
+Leonardo Mouramateus,,sem_correspondencia,2020,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Camila Kater,CAMILA MAGALHAES KATER,alta,2020,1,False,Annecy,0,,,False,False,False,False,False,False,False
+Francis Vogner dos Reis,FRANCIS VOGNER DOS REIS,alta,2021,1,False,Locarno,0,,,False,False,False,False,False,False,False
+Jasmin Tenucci,JASMIN FREITAS TENUCCI,alta,2021,1,True,Cannes,0,,,False,False,False,False,False,False,False
+Rodrigo Ribeyro,,sem_correspondencia,2021,1,False,Cannes,0,,,False,False,False,False,False,False,False
+Bárbara Paz,BARBARA RAQUEL PAZ,alta,2021,1,False,Veneza,1,2019,,False,True,True,False,False,True,False
+Ducca Rios,,sem_correspondencia,2021,1,False,Annecy,0,,,False,False,False,False,False,False,False
+Cesar Cabral,CESAR LUIZ CABRAL,alta,2021,1,True,Annecy,1,2021,0.0,False,False,True,False,False,True,True
+Carlos Segundo,CARLOS ANTONIO SANTOS SEGUNDO,media,2021,1,False,Cannes,5,2009,4.0,False,True,True,True,False,False,False
+Leonardo Martinelli,LEONARDO ROCHA MARTINELLI SILVA,alta,2021,2,True,Cannes | Locarno,0,,,False,False,False,False,False,False,False
+Bruno Ribeiro,,baixa,2022,1,True,Berlinale,0,,,False,False,False,False,False,False,False
+Minze Tummescheit,,sem_correspondencia,2022,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Júlia Fávero,JULIA DORDETTI FAVERO,media,2022,1,False,Clermont-Ferrand,0,,,False,False,False,False,False,False,False
+Elizabeth Rocha Salgado,,sem_correspondencia,2022,1,False,Clermont-Ferrand,0,,,False,False,False,False,False,False,False
+Luciana Mazeto,LUCIANA HUBNER MAZETO,alta,2022,1,False,Rotterdam,2,2020,,False,True,True,False,False,False,False
+Arne Hector,,sem_correspondencia,2022,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Cassiana Der Haroutiounian,CASSIANA DER HAROUTIOUNIAN,alta,2022,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Vinícius Lopes,VINICIUS SILVA LOPES,alta,2022,1,False,Rotterdam,2,2020,,False,True,True,False,False,False,False
+Victoria Negreiros,VICTORIA NEGREIROS GUEDES,media,2022,1,False,Clermont-Ferrand,0,,,False,False,False,False,False,False,False
+Cesar Gananian,CESAR AUGUSTO GANANIAN,alta,2022,1,False,Rotterdam,1,2020,,False,True,True,False,False,False,False
+Emanuel Lavor,EMANUEL VINICIUS LAVOR MIRANDA,alta,2023,1,False,Berlinale,0,,,False,False,False,False,False,False,False
+Rafaela Camelo,RAFAELA CAMELO VIEIRA,alta,2023,1,False,Berlinale,1,2025,2.0,False,False,True,False,False,False,False
+Laís Santos Araújo,LAIS SANTOS ARAUJO,alta,2023,1,True,Berlinale,0,,,False,False,False,False,False,False,False
+Roger Ghil,ROGER GOMES GHIL,alta,2023,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Paulo Menezes,,sem_correspondencia,2023,1,True,Locarno,0,,,False,False,False,False,False,False,False
+Pedro Vargas,PEDRO VARGAS CUNHA,media,2023,1,False,Cannes,0,,,False,False,False,False,False,False,False
+Leandro Goddinho,,sem_correspondencia,2023,1,True,Locarno,0,,,False,False,False,False,False,False,False
+Leonardo Pirondi,,sem_correspondencia,2024,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Moara Passoni,MOARA ROSSETTO PASSONI,alta,2024,1,False,Veneza,1,2019,,False,True,True,False,False,False,False
+André Hayato Saito,ANDRE HAYATO SAITO,alta,2024,1,False,Cannes,0,,,False,False,False,False,False,False,False
+Valentina Homem,VALENTINA ONUFER CORREA HOMEM,alta,2024,1,False,Cannes,1,2023,,False,True,True,False,False,False,False
+Rosa Caldeira,,sem_correspondencia,2025,1,False,Berlinale,0,,,False,False,False,False,False,False,False
+Lucia Murat,LUCIA MARIA MURAT VASCONCELLOS,alta,2025,1,False,Berlinale,15,1989,0.0,False,True,True,True,False,False,False
+Luiza Calagian,LUIZA MANDETTA CALAGIAN,alta,2025,1,False,Berlinale,1,2025,0.0,False,False,True,False,False,False,False
+Gustavo de Carvalho,,baixa,2025,1,False,Berlinale,0,,,False,False,False,False,False,False,False
+Pethrus Tibúrcio,,sem_correspondencia,2025,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
+Stephanie Ricci,STEPHANIE DE MARCHI RICCI,media,2025,1,False,Rotterdam,0,,,False,False,False,False,False,False,False
