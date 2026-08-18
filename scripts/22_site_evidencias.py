@@ -2458,30 +2458,40 @@ g_concentracao = (
 
 # ════════════════════════ MONTAGEM: SIDEBAR + ABAS + ROUTER ════════════════════════
 # fusão 14 → 8: as abas legadas são concatenadas na alegação nova a que pertencem
-ABAS = ([# 2026-08-17 (Cainan): a camada das PERGUNTAS sai do painel — vai ser
-         # recriada do zero. Fica só o bloco de dados gerais, que é independente
-         # das perguntas e não foi tocado em nenhuma das rodadas anteriores.
-         ('g_visao', g_visao),
-         ('g_rankings', g_rankings),
-         ('g_chamadas', g_chamadas),
-         ('g_produtoras', g_produtoras),
-         ('g_concentracao', g_concentracao)]
-        + [('dados', aba_dados)])
+# 2026-08-17 (Cainan): só Rankings e Chamadas ficam liberados. Visão geral,
+# Produtoras e Concentração seguem visíveis na barra lateral como botão
+# DESLIGADO — o conteúdo delas não é gerado, então não há como alcançá-lo nem
+# pela URL. Basta devolver o par à lista abaixo para religar.
+ABAS = [('g_rankings', g_rankings),
+        ('g_chamadas', g_chamadas),
+        ('dados', aba_dados)]
+DESLIGADAS = [('g_visao', '1', 'Visão geral'),
+              ('g_produtoras', '4', 'Produtoras'),
+              ('g_concentracao', '5', 'Concentração')]
 
 nav_parts = ['<div class="pn-label">Painel</div>',
              '<div class="pn-grp">Dados gerais</div>']
-for _aid, _num, _lab in [('g_visao', '1', 'Visão geral'), ('g_rankings', '2', 'Rankings'),
-                         ('g_chamadas', '3', 'Chamadas'), ('g_produtoras', '4', 'Produtoras'),
-                         ('g_concentracao', '5', 'Concentração')]:
-    nav_parts.append(f'<a class="pn-item" data-aba="{_aid}" href="#{_aid}">'
-                     f'<span class="pn-num pn-g">{_num}</span>{_lab}</a>')
+_ORDEM = [('g_visao', '1', 'Visão geral'), ('g_rankings', '2', 'Rankings'),
+          ('g_chamadas', '3', 'Chamadas'), ('g_produtoras', '4', 'Produtoras'),
+          ('g_concentracao', '5', 'Concentração')]
+_LIBERADAS = {aid for aid, _ in ABAS}
+for _aid, _num, _lab in _ORDEM:
+    if _aid in _LIBERADAS:
+        _on = ' on' if _aid == ABAS[0][0] else ''
+        nav_parts.append(f'<a class="pn-item{_on}" data-aba="{_aid}" href="#{_aid}">'
+                         f'<span class="pn-num pn-g">{_num}</span>{_lab}</a>')
+    else:
+        nav_parts.append(f'<span class="pn-item pn-off" aria-disabled="true" '
+                         f'title="em preparação">'
+                         f'<span class="pn-num">{_num}</span>{_lab}'
+                         f'<span class="pn-tag">em breve</span></span>')
 nav_parts.append('<div class="pn-sep">Fonte</div>')
 nav_parts.append('<a class="pn-item" data-aba="dados" href="#dados">'
                  '<span class="pn-num">▹</span>Dados abertos</a>')
 sidebar = '<nav class="pn" id="pn">' + ''.join(nav_parts) + '</nav>'
 
 abas_html = ''.join(
-    f'<div class="aba" id="aba-{aid}" style="display:{"block" if aid == "g_visao" else "none"}">{conteudo}</div>'
+    f'<div class="aba" id="aba-{aid}" style="display:{"block" if aid == ABAS[0][0] else "none"}">{conteudo}</div>'
     for aid, conteudo in ABAS)
 
 CSS_PANEL = """
@@ -2512,6 +2522,11 @@ CSS_PANEL = """
          color:#a8b0c0;text-decoration:none;transition:.12s;line-height:1.3}
 .pn-item:hover{background:#14171f;color:#e2e8f0}
 .pn-item.on{background:#1a1f2e;color:#e8ecf4;border:1px solid #282d42}
+.pn-item.pn-off{color:#4a5164;cursor:not-allowed;user-select:none}
+.pn-item.pn-off:hover{background:none;color:#4a5164}
+.pn-item.pn-off .pn-num{background:#0f1218;border-color:#1a1f2c;color:#39405260}
+.pn-tag{margin-left:auto;font-size:9.5px;font-weight:700;letter-spacing:.07em;
+        text-transform:uppercase;color:#3d4457}
 .pn-num{flex:none;width:22px;height:22px;border-radius:7px;background:#14171f;border:1px solid #232838;
         display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#6c7bf7}
 .pn-item.on .pn-num{background:#232a44}
@@ -2679,7 +2694,7 @@ ROUTER_JS = """
     });
   });
   function show(id){
-    if (VALID.indexOf(id) < 0) id = 'visao';
+    if (VALID.indexOf(id) < 0) id = VALID[0];
     [].slice.call(document.querySelectorAll('.aba')).forEach(function(a){ a.style.display = 'none'; });
     var el = document.getElementById('aba-' + id);
     if (el) el.style.display = 'block';
@@ -2692,10 +2707,11 @@ ROUTER_JS = """
     if (typeof Plotly === 'undefined') { setTimeout(go, 300); } else { go(); }
   }
   [].slice.call(document.querySelectorAll('.pn-item')).forEach(function(t){
+    if (t.classList.contains('pn-off')) return;      // botão desligado: não navega
     t.addEventListener('click', function(ev){ ev.preventDefault(); show(t.getAttribute('data-aba')); });
   });
-  window.addEventListener('hashchange', function(){ show(location.hash.replace('#', '') || 'visao'); });
-  function boot(){ show(location.hash.replace('#', '') || 'visao'); }
+  window.addEventListener('hashchange', function(){ show(location.hash.replace('#', '') || VALID[0]); });
+  function boot(){ show(location.hash.replace('#', '') || VALID[0]); }
   if (document.readyState === 'complete') boot();
   else window.addEventListener('load', boot);
 })();
@@ -2704,10 +2720,10 @@ ROUTER_JS = """
 S.ensure_site()
 html = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Painel — oito perguntas | Fomento Audiovisual</title>
-<meta name="description" content="O painel de verificação do argumento: uma aba por alegação, com teste, veredito tipado, ressalvas, visualizações interativas e reprodução via RIDAB.">
-<meta property="og:title" content="Painel — Fomento Audiovisual">
-<meta property="og:description" content="Uma aba por alegação: teste, veredito, ressalvas e reprodução via dados abertos (RIDAB).">
+<title>Painel de dados | Fomento Audiovisual · FSA 2014–2023</title>
+<meta name="description" content="Os agregados do fomento ao cinema brasileiro, obra a obra e chamada a chamada: rankings ordenáveis, dispersões e reprodução via dados abertos do RIDAB.">
+<meta property="og:title" content="Painel de dados — Fomento Audiovisual">
+<meta property="og:description" content="Rankings de obras, produtoras e chamadas do FSA, com reprodução via dados abertos (RIDAB).">
 <meta property="og:type" content="article">
 <link rel="icon" href="{S.FAVICON}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
