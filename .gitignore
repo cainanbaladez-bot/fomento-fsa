@@ -69,3 +69,6 @@ outputs/tabelas/receita_estimada_por_obra.csv
 outputs/tabelas/base_bilheteria_obra.csv
 outputs/tabelas/master_obra_fsa.csv
 outputs/tabelas/curtas_universo.csv
+
+# clone vazio criado pelo GitHub Desktop por engano (pode apagar)
+/fomento-fsa/
