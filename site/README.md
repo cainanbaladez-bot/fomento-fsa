@@ -5,10 +5,12 @@ Site estático, autocontido, pronto para publicar. Três páginas:
 | Página | O quê |
 |---|---|
 | `index.html` | Porta de entrada — o projeto, o método, as **8 alegações** em cards, trilhas de leitura, conexão RIDAB |
-| `ensaio.html` | O ensaio autoral (voz em 1ª pessoa): abertura + 8 alegações + contra-alegações + 13 proposições + coda. **Passar o mouse num número-âncora abre o gráfico daquele número** (popup Plotly interativo) |
-| `evidencias.html` | **O painel de dados**, em três blocos: **Dados gerais** (5 abas — Visão geral · **Rankings** (obras → produtoras → chamadas, as três bases completas com 29/24/16 colunas) · Chamadas · Produtoras · Concentração), **As perguntas** (as 8 na ordem do ensaio: KPIs + figuras, sem juízo) e **Anexos**, fechando na **Metodologia** — um bloco dobrável por pergunta com a conta, os limites do dado e o “reproduza esta conta” (RIDAB + DuckDB) |
+| `ensaio.html` | O ensaio autoral (voz em 1ª pessoa): abertura + 8 alegações + contra-alegações + 13 proposições + coda. **Passar o mouse (ou tocar) numa passagem sublinhada abre o gráfico daquele trecho** — 34 visualizações em popup Plotly, uma por afirmação empírica do texto, cada uma com legenda e fonte |
+| `evidencias.html` | **O painel de dados** — abre com **uma aba por pergunta** (as mesmas 34 visualizações que o ensaio traz nas passagens, abertas e grandes, mais 9 de leitura do conjunto), em três blocos: **Dados gerais** (5 abas — Visão geral · **Rankings** (obras → produtoras → chamadas, as três bases completas com 29/24/16 colunas) · Chamadas · Produtoras · Concentração), **As perguntas** (as 8 na ordem do ensaio: KPIs + figuras, sem juízo) e **Anexos**, fechando na **Metodologia** — um bloco dobrável por pergunta com a conta, os limites do dado e o “reproduza esta conta” (RIDAB + DuckDB) |
 
-`assets/plotly.min.js` é o único asset (carregado apenas pelas evidências; gráficos em lazy-load).
+`assets/plotly.min.js` é o único script (evidências e ensaio; gráficos em lazy-load) e
+`assets/topojson/world_110m.json` é a base cartográfica dos dois mapas do ensaio — o site
+não depende de CDN nenhuma.
 
 ## Publicar no GitHub Pages
 

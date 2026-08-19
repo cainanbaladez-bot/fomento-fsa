@@ -1,0 +1,11 @@
+ano,desembolso_nominal,contratos,retorno_nominal,operacoes_com_retorno,precisao_retorno,fonte
+2014,99465260.69,105,,,,"Relatório Anual de Gestão do FSA 2023, Tabela 12 (desembolso). Retorno de 2014 não é divulgado como valor do exercício no RG 2014 (só acumulado)."
+2015,232426117.07,400,10846356.57,122,exato,"RG FSA 2015, seção 4.1.2 (FINEP 3.835.303,89 + BRDE 7.011.052,68); desembolso do RG 2023, Tabela 12"
+2016,302104237.02,581,5408176.26,70,exato,"RG FSA 2016, seção de recuperação do investimento; desembolso do RG 2023, Tabela 12"
+2017,477508072.72,612,4900000.00,74,arredondado,"RG FSA 2017 (""R$ 4,9 milhões"", 74 operações); desembolso do RG 2023, Tabela 12"
+2018,549326754.33,806,12500000.00,134,arredondado,"RG FSA 2018 (""R$ 12,5 milhões"", 134 operações); desembolso do RG 2023, Tabela 12"
+2019,542411132.15,687,11137241.06,230,exato,"RG FSA 2019, Tabela 16; desembolso do RG 2023, Tabela 12"
+2020,121781007.73,194,6078957.27,137,exato,"RG FSA 2020, seção 4.3; desembolso do RG 2023, Tabela 12"
+2021,313496583.57,478,13280732.56,257,exato,"RG FSA 2021, seção 4.3 (valor por extenso no relatório); desembolso do RG 2023, Tabela 12"
+2022,264396012.45,387,4644307.40,136,exato,"RG FSA 2022, seção 4.4; desembolso do RG 2023, Tabela 12"
+2023,416291504.45,345,18089525.56,464,exato,"RG FSA 2023, seção 4.4 e Tabela 13; desembolso do RG 2023, Tabela 12"

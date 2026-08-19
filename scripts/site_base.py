@@ -511,6 +511,33 @@ LAZY_JS = """
 """
 
 
+# ── AVISO DE TRABALHO EM ANDAMENTO (decisão Cainan 2026-08-19) ────────────────
+# Vai no topo das três páginas, logo abaixo da navegação. Não é sticky: aparece ao
+# abrir e sai com o scroll — o leitor pode fechar, e a barra some da sessão.
+WIP_CSS = """
+.wip{display:flex;align-items:flex-start;gap:12px;padding:11px 22px;
+     background:linear-gradient(90deg,#3a2a08,#241b0c 62%,#181a24);
+     border-bottom:1px solid #5b4413;color:#f3d9a0;font-size:13px;line-height:1.55}
+.wip b{color:#fbbf24;letter-spacing:.02em}
+.wip .wip-i{flex:none;font-size:15px;line-height:1.25}
+.wip .wip-t{max-width:960px}
+.wip .wip-x{margin-left:auto;flex:none;background:none;border:1px solid #5b4413;color:#c9a75a;
+            border-radius:16px;font-size:11px;font-weight:700;padding:3px 11px;cursor:pointer;
+            white-space:nowrap}
+.wip .wip-x:hover{color:#fbbf24;border-color:#8a6a1f}
+@media(max-width:720px){.wip{font-size:12px;padding:10px 14px}}
+"""
+
+WIP_HTML = (
+    '<div class="wip" id="wip"><span class="wip-i">&#9888;</span><div class="wip-t">'
+    '<b>Trabalho em andamento.</b> Esta análise e o painel que a sustenta estão em construção: '
+    'números, recortes e gráficos ainda mudam de uma versão para outra, e parte das leituras '
+    'segue em revisão. Não cite como resultado final — cada gráfico traz a fonte e a ressalva '
+    'do próprio número.'
+    '</div><button class="wip-x" onclick="document.getElementById(\'wip\').remove()">'
+    'entendi</button></div>')
+
+
 def sitenav(active):
     def nv(href, label, key):
         on = ' on' if key == active else ''
@@ -545,8 +572,9 @@ def html_shell(fname, title, desc, eyebrow, h1, sub, toc_links, body, footer='',
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{fonts}&display=swap" rel="stylesheet">
 {plotly_head}
-<style>{CSS_BASE}{extra_css}</style></head><body>
+<style>{CSS_BASE}{WIP_CSS}{extra_css}</style></head><body>
 {sitenav(active)}
+{WIP_HTML}
 <div class="wrap">
 <header class="page">
   <div class="eyebrow">{eyebrow}</div>

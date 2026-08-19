@@ -2456,15 +2456,120 @@ g_concentracao = (
                      (DL(f_elo), 'A posição relativa de cada elo da cadeia (Produtora = 100).')])),
     ]))
 
+# ════════════ BLOCO 2 · AS PERGUNTAS — os gráficos de âncora do ensaio ════════════
+# 2026-08-19 (Cainan): a camada de perguntas volta, agora montada com AS MESMAS
+# visualizações que o ensaio abre no hover de cada passagem (scripts/23 e 24), mais
+# as complementares de leitura do conjunto (scripts/25). Nada é redesenhado aqui: o
+# painel e o texto mostram exatamente o mesmo gráfico, com a mesma legenda e a mesma
+# fonte — o que muda é que aqui ele fica aberto, grande e lado a lado com os outros.
+_HOV = {}
+for _n in ('hoverfigs.json', 'hoverfigs2.json'):
+    _p = os.path.join(BASE, 'outputs', 'bases', _n)
+    if os.path.exists(_p):
+        _HOV.update(json.load(open(_p, encoding='utf-8')))
+_PAINEL_EXTRA = {}
+_p = os.path.join(BASE, 'outputs', 'bases', 'painelfigs.json')
+if os.path.exists(_p):
+    _PAINEL_EXTRA = json.load(open(_p, encoding='utf-8'))
+if not _HOV:
+    print('  ! hoverfigs*.json ausentes — rode scripts/23, 24 e 25 ANTES deste')
+
+# as 8 âncoras da Parte I não trazem `secao` (a âncora delas é textual): mapa fixo
+_SEC_G = {'g0': 'c1', 'g1': 'c1', 'g2': 'c1', 'g3': 'c1', 'g4': 'c1',
+          'g5': 'c1', 'g6': 'c1', 'g7': 'c1'}
+
+
+def _spec_html(gid, spec, h=430):
+    """Div + spec JSON no mesmo contrato do lazy-loader do painel (1 spec, 1 div)."""
+    sp = json.loads(json.dumps(spec))
+    lay = sp.setdefault('layout', {})
+    lay['height'] = h
+    lay['paper_bgcolor'] = lay['plot_bgcolor'] = '#12151e'
+    m = lay.setdefault('margin', {})
+    m['t'] = max(m.get('t', 10), 46 if lay.get('showlegend', True) else 16)
+    pid = f'pq-{gid}'
+    js_ = json.dumps(sp, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
+    return (f'<div class="js-plot" data-plot="{pid}" style="min-height:{h}px"></div>'
+            f'<script type="application/json" id="{pid}">{js_}</script>')
+
+
+def _card_fig(gid, v, ancora=True):
+    _alt = 460 if any(k in gid for k in ('casos', 'perfis', 'sequencias', 'intl_publico',
+                                         'ritmo', 'uf', 'criterio')) else 420
+    corpo = _spec_html(gid, v['spec'], h=_alt)
+    tag = ('<span class="qtag qtag-a">âncora do texto</span>' if ancora
+           else '<span class="qtag qtag-c">leitura do conjunto</span>')
+    link = (f'<a class="qlink" href="{ENS}#{v.get("secao", _SEC_G.get(gid, "c1"))}">'
+            'ler a passagem no argumento →</a>') if ancora else ''
+    return (f'<div class="card span2 qcard" id="fig-{gid}">'
+            f'<div class="qhd">{tag}<h4>{v["titulo"]}</h4></div>'
+            f'<div>{corpo}</div>'
+            f'<div class="card-c qleg">{v["legenda"]}'
+            f'<div class="qsrc">Fonte: {v["fonte"]} {link}</div></div></div>')
+
+
+def aba_pergunta(cid):
+    _, parte, rotulo, tese, tldr, status, kind, peso = S.CLAIM_BY_ID[cid]
+    romano = {'p1': 'I', 'p2': 'II', 'p3': 'III', 'p4': 'IV'}[parte]
+    num = cid[1:]
+    anc = [(k, v) for k, v in _HOV.items() if v.get('secao', _SEC_G.get(k)) == cid]
+    ext = [(k, v) for k, v in _PAINEL_EXTRA.items() if v.get('secao') == cid]
+    head = ('<div class="pnl-hd"><div class="hd-l">'
+            f'<div class="kicker">Parte {romano} · Pergunta {num} · {rotulo}</div>'
+            f'<h2>{tese}</h2></div></div>'
+            f'<p class="lead">{tldr}</p>')
+    howto = ('<div class="howto"><span class="ht">como ler esta aba</span>'
+             f'<b>{len(anc)} gráficos de âncora</b> — os mesmos que a '
+             f'<a href="{ENS}#{cid}">passagem correspondente do argumento</a> abre ao passar o '
+             'mouse, na ordem em que aparecem no texto. Depois deles, '
+             f'<b>{len(ext)} de leitura do conjunto</b>, que não estão no texto e servem para '
+             'ver o quadro inteiro: cobertura do dado, forma da distribuição, geografia, série. '
+             'Toda legenda declara a ressalva do próprio número.</div>')
+    corpo = ['<div class="figgrid one">']
+    corpo += [_card_fig(k, v, True) for k, v in anc]
+    corpo.append('</div>')
+    if ext:
+        corpo.append('<div class="curado-hd"><span>◇ Leitura do conjunto</span> '
+                     'gráficos que não estão no argumento — o painel abre o que o texto não pede</div>')
+        corpo.append('<div class="figgrid one">')
+        corpo += [_card_fig(k, v, False) for k, v in ext]
+        corpo.append('</div>')
+    corpo.append(f'<a class="plink" href="{ENS}#{cid}">← ler esta pergunta no argumento</a>')
+    return head + howto + ''.join(corpo)
+
+
+ABAS_PERGUNTA = [(f'q_{cid}', aba_pergunta(cid)) for cid, *_ in S.CLAIMS if cid in S.CLAIM_BY_ID]
+print(f'  perguntas: {len(ABAS_PERGUNTA)} abas · {len(_HOV)} gráficos de âncora + '
+      f'{len(_PAINEL_EXTRA)} de conjunto')
+
+CSS_PERGUNTAS = """
+.qcard{padding:14px 14px 6px}
+.qhd{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 10px}
+.qhd h4{font-size:15.5px;font-weight:700;color:#e8ecf4;line-height:1.32;margin:0;flex:1;min-width:220px}
+.qtag{flex:none;font-size:9.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+      padding:3px 8px;border-radius:20px;border:1px solid}
+.qtag-a{color:#38bdf8;border-color:#1d4a6b;background:#0e1c2a}
+.qtag-c{color:#a78bfa;border-color:#3b2f63;background:#171331}
+.qleg{font-size:13px;line-height:1.6;color:#9aa3b5}
+.qsrc{margin-top:7px;font-size:11px;color:#6d7689;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.qlink{color:#38bdf8;text-decoration:none;font-weight:700;white-space:nowrap}
+.qlink:hover{text-decoration:underline}
+"""
+
+WIP_HTML = S.WIP_HTML
+
+
+
 # ════════════════════════ MONTAGEM: SIDEBAR + ABAS + ROUTER ════════════════════════
 # fusão 14 → 8: as abas legadas são concatenadas na alegação nova a que pertencem
 # 2026-08-17 (Cainan): só Rankings e Chamadas ficam liberados. Visão geral,
 # Produtoras e Concentração seguem visíveis na barra lateral como botão
 # DESLIGADO — o conteúdo delas não é gerado, então não há como alcançá-lo nem
 # pela URL. Basta devolver o par à lista abaixo para religar.
-ABAS = [('g_rankings', g_rankings),
-        ('g_chamadas', g_chamadas),
-        ('dados', aba_dados)]
+ABAS = ([('g_rankings', g_rankings),
+         ('g_chamadas', g_chamadas)]
+        + ABAS_PERGUNTA
+        + [('dados', aba_dados)])
 DESLIGADAS = [('g_visao', '1', 'Visão geral'),
               ('g_produtoras', '4', 'Produtoras'),
               ('g_concentracao', '5', 'Concentração')]
@@ -2485,6 +2590,13 @@ for _aid, _num, _lab in _ORDEM:
                          f'title="em preparação">'
                          f'<span class="pn-num">{_num}</span>{_lab}'
                          f'<span class="pn-tag">em breve</span></span>')
+nav_parts.append('<div class="pn-grp">As perguntas · na ordem do argumento</div>')
+for _cid, *_ in S.CLAIMS:
+    if _cid not in S.CLAIM_BY_ID:
+        continue
+    _rot = S.CLAIM_BY_ID[_cid][2]
+    nav_parts.append(f'<a class="pn-item" data-aba="q_{_cid}" href="#q_{_cid}">'
+                     f'<span class="pn-num">{_cid[1:]}</span>{_rot}</a>')
 nav_parts.append('<div class="pn-sep">Fonte</div>')
 nav_parts.append('<a class="pn-item" data-aba="dados" href="#dados">'
                  '<span class="pn-num">▹</span>Dados abertos</a>')
@@ -2662,7 +2774,8 @@ ROUTER_JS = """
     el.dataset.done = '1';
     try{
       var spec = JSON.parse(document.getElementById(el.dataset.plot).textContent);
-      Plotly.newPlot(el, spec.data, spec.layout, {displayModeBar:false, responsive:true});
+      Plotly.newPlot(el, spec.data, spec.layout,
+        {displayModeBar:false, responsive:true, topojsonURL:'assets/topojson/'});
     }catch(e){ el.innerHTML = '<div style="color:#7b849a;font-size:13px;padding:30px">gr\\u00e1fico indispon\\u00edvel</div>'; }
   }
   function drawVisible(root){
@@ -2730,8 +2843,9 @@ html = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="assets/plotly.min.js" defer></script>
-<style>{S.CSS_BASE}{CSS_PANEL}</style></head><body>
+<style>{S.CSS_BASE}{S.WIP_CSS}{CSS_PANEL}{CSS_PERGUNTAS}</style></head><body>
 {S.sitenav('evidencias')}
+{WIP_HTML}
 <div class="pl">
 {sidebar}
 <main class="pc">
