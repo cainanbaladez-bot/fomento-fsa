@@ -2815,6 +2815,7 @@ ROUTER_JS = """
       t.classList.toggle('on', t.getAttribute('data-aba') === id);
     });
     if (history.replaceState) history.replaceState(null, '', '#' + id);
+    if (window.ev) window.ev('aba/' + id, 'painel: ' + id);
     window.scrollTo(0, 0);
     function go(){ drawAba(id); }
     if (typeof Plotly === 'undefined') { setTimeout(go, 300); } else { go(); }
@@ -2843,6 +2844,7 @@ html = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="assets/plotly.min.js" defer></script>
+{S.analytics_head()}
 <style>{S.CSS_BASE}{S.WIP_CSS}{CSS_PANEL}{CSS_PERGUNTAS}</style></head><body>
 {S.sitenav('evidencias')}
 {WIP_HTML}

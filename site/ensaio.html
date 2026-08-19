@@ -10,6 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 <script src="assets/plotly.min.js" defer></script>
+<script>
+window.ev = function(caminho, titulo){
+  try{
+    if (window.goatcounter && window.goatcounter.count)
+      window.goatcounter.count({path: caminho, title: titulo || caminho, event: true});
+  }catch(e){}
+};
+</script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{color-scheme:dark}
@@ -177,6 +185,7 @@ h2{font-size:27px;line-height:1.24;margin-bottom:20px;color:#eef1f6}
 (function(){
   var el=document.getElementById('tv-specs'); if(!el) return;
   var SPECS=JSON.parse(el.textContent), pop, gd, cur=null, hideT=null, fixo=false;
+  var vistos = {};   /* mede QUAL trecho o leitor abriu, uma vez por sessão */
   function build(){
     pop=document.createElement('div'); pop.id='tvpop';
     pop.innerHTML='<span class="tvp-x">\u2715</span>'+
@@ -206,6 +215,7 @@ h2{font-size:27px;line-height:1.24;margin-bottom:20px;color:#eef1f6}
     pop.querySelector('.tvp-t').textContent=s.titulo;
     pop.querySelector('.tvp-c').textContent=s.legenda;
     pop.querySelector('.tvp-f').textContent='Fonte: '+s.fonte;
+    if(!vistos[k]){ vistos[k]=1; if(window.ev) window.ev('trecho/'+k, 'trecho: '+s.titulo); }
     if(cur!==k){
       cur=k;
       var f=JSON.parse(JSON.stringify(s.spec));

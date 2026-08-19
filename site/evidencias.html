@@ -10,6 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="assets/plotly.min.js" defer></script>
+<script>
+window.ev = function(caminho, titulo){
+  try{
+    if (window.goatcounter && window.goatcounter.count)
+      window.goatcounter.count({path: caminho, title: titulo || caminho, event: true});
+  }catch(e){}
+};
+</script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{color-scheme:dark}
@@ -713,6 +721,7 @@ aba (Plotly local, carregado uma vez). Nenhum número é digitado à mão: tudo 
       t.classList.toggle('on', t.getAttribute('data-aba') === id);
     });
     if (history.replaceState) history.replaceState(null, '', '#' + id);
+    if (window.ev) window.ev('aba/' + id, 'painel: ' + id);
     window.scrollTo(0, 0);
     function go(){ drawAba(id); }
     if (typeof Plotly === 'undefined') { setTimeout(go, 300); } else { go(); }

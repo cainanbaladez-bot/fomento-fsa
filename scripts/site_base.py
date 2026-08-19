@@ -16,6 +16,7 @@ ele o CSS_PANEL do próprio scripts/22 (sidebar, KPI bar, grade de cards): é pa
 Fonte editável do ensaio: site_src/ensaio.md.
 """
 import os
+import json
 import shutil
 import plotly.io as pio
 
@@ -511,6 +512,46 @@ LAZY_JS = """
 """
 
 
+# ── MEDIÇÃO DE ACESSO (decisão Cainan 2026-08-19) ─────────────────────────────
+# GoatCounter: sem cookie, sem banner, sem nada visível na página, painel privado.
+# O código do site NÃO é hardcoded — vem de `referencia/analytics.json`:
+#     {"goatcounter": "meusite"}       → vira https://meusite.goatcounter.com/count
+# Sem o arquivo (ou com o campo vazio) nenhuma tag é escrita: o site sai limpo.
+# Desligar de vez = apagar o arquivo. Nada mais no código precisa mudar.
+#
+# Além do pageview automático, as páginas registram EVENTO: qual trecho o leitor
+# abriu no ensaio e qual aba de pergunta ele visitou no painel. Os eventos entram
+# como caminhos próprios (trecho/g0, aba/q_c2), então aparecem na mesma lista do
+# painel do GoatCounter, separados por prefixo.
+_ANL_P = os.path.join(BASE, 'referencia', 'analytics.json')
+try:
+    with open(_ANL_P, encoding='utf-8') as _fh:
+        ANALYTICS = json.load(_fh)
+except (OSError, ValueError):
+    ANALYTICS = {}
+GC_CODE = str(ANALYTICS.get('goatcounter', '')).strip()
+
+# `ev(nome)` é o único ponto de contato do site com a medição. Sem tag, é no-op —
+# então ensaio e painel podem chamar sempre, sem checar nada.
+EV_JS = """
+window.ev = function(caminho, titulo){
+  try{
+    if (window.goatcounter && window.goatcounter.count)
+      window.goatcounter.count({path: caminho, title: titulo || caminho, event: true});
+  }catch(e){}
+};
+"""
+
+
+def analytics_head():
+    """Tag do GoatCounter + o helper ev(). Vazio quando não há código configurado."""
+    if not GC_CODE:
+        return f'<script>{EV_JS}</script>'
+    return (f'<script>{EV_JS}</script>'
+            f'<script data-goatcounter="https://{GC_CODE}.goatcounter.com/count" async '
+            f'src="//gc.zgo.at/count.js"></script>')
+
+
 # ── AVISO DE TRABALHO EM ANDAMENTO (decisão Cainan 2026-08-19) ────────────────
 # Vai no topo das três páginas, logo abaixo da navegação. Não é sticky: aparece ao
 # abrir e sai com o scroll — o leitor pode fechar, e a barra some da sessão.
@@ -572,6 +613,7 @@ def html_shell(fname, title, desc, eyebrow, h1, sub, toc_links, body, footer='',
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{fonts}&display=swap" rel="stylesheet">
 {plotly_head}
+{analytics_head()}
 <style>{CSS_BASE}{WIP_CSS}{extra_css}</style></head><body>
 {sitenav(active)}
 {WIP_HTML}
