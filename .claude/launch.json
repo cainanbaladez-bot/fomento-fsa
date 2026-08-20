@@ -9,8 +9,8 @@
     },
     {
       "name": "uso",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8790", "--directory", "outputs/uso"],
+      "runtimeExecutable": ".venv\Scripts\python.exe",
+      "runtimeArgs": ["scripts/27_uso.py", "--servir"],
       "port": 8790
     },
     {
