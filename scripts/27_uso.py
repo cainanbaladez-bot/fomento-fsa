@@ -39,7 +39,6 @@ import urllib.error
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import site_base as S  # noqa: E402
 
@@ -59,6 +58,21 @@ BLOCOS = [('toprefs', 'De onde vieram', S.CYAN),
           ('sizes', 'Tamanho de tela', S.GOLD),
           ('campaigns', 'Campanhas', S.CORAL),
           ('languages', 'Idiomas', '#7b849a')]
+
+
+# Sob `pythonw` (é assim que o atalho sobe o servidor, para não abrir janela de
+# console) `sys.stdout` é None e qualquer print derruba o processo em silêncio —
+# foi o que aconteceu na primeira versão do .bat. Aqui a saída vai para um log.
+if sys.stdout is None or sys.stderr is None:
+    os.makedirs(OUT, exist_ok=True)
+    _log = open(os.path.join(OUT, 'servidor.log'), 'a', encoding='utf-8', buffering=1)
+    sys.stdout = sys.stderr = _log
+    print(f'== {dt.datetime.now():%d/%m/%Y %H:%M:%S} · painel de uso iniciado sem console')
+else:
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except (AttributeError, ValueError):
+        pass
 
 
 def brn(x, d=0):
