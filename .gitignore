@@ -72,3 +72,7 @@ outputs/tabelas/curtas_universo.csv
 
 # clone vazio criado pelo GitHub Desktop por engano (pode apagar)
 /fomento-fsa/
+
+# ── Medição de acesso: token e painel de uso são privados ────────────────────
+.env.analytics
+outputs/uso/

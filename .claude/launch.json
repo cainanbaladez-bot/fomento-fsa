@@ -8,6 +8,12 @@
       "port": 8788
     },
     {
+      "name": "uso",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8790", "--directory", "outputs/uso"],
+      "port": 8790
+    },
+    {
       "name": "static",
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8807", "--directory", "outputs/eda"],
