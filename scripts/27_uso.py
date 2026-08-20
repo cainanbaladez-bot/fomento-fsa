@@ -127,8 +127,15 @@ def carrega_titulos():
 
 TITULOS, SECAO = carrega_titulos()
 PERGUNTA = {c[0]: c[2] for c in S.CLAIMS}
+# Os dois sites caem no mesmo GoatCounter e se distinguem pelo caminho:
+#   /fomento-fsa/...  → o estudo (GitHub Pages de cainanbaladez-bot/fomento-fsa)
+#   /riab/...         → o portal do RIDAB (riabr-dados.github.io/riab)
 PAGINA = {'/ensaio.html': 'Análise (o texto)', '/evidencias.html': 'Painel de dados',
           '/index.html': 'Início', '/': 'Início'}
+PORTAL = {'/': 'Início do portal', '/datasets/': 'Datasets', '/explorar/': 'Explorar',
+          '/transformar/': 'Transformar (cruzar bases)', '/conexoes/': 'Conexões',
+          '/consulta/': 'Consulta', '/mural/': 'Mural', '/sobre/': 'Sobre',
+          '/brasil-no-mundo/': 'Brasil no mundo'}
 ABA_NOME = {'g_rankings': 'Rankings', 'g_chamadas': 'Chamadas', 'dados': 'Dados abertos'}
 
 
@@ -146,6 +153,12 @@ def humano(path):
         if aid in PERGUNTA:
             return 'aba', f'Pergunta {aid[1:]} · {PERGUNTA[aid]}', aid
         return 'aba', ABA_NOME.get(aid, aid), aid
+    if p.startswith('/riab'):
+        resto = p[5:] or '/'
+        return 'portal', PORTAL.get(resto, resto), p
+    if p.startswith('/fomento-fsa'):
+        resto = p[12:] or '/'
+        return 'pagina', PAGINA.get(resto, resto), p
     return 'pagina', PAGINA.get(p, p), p
 
 
@@ -298,6 +311,7 @@ def monta_html(d, servidor=False):
     trechos = sorted([r for r in linhas if r['tipo'] == 'trecho'], key=lambda r: -r['views'])[:25]
     abas = sorted([r for r in linhas if r['tipo'] == 'aba'], key=lambda r: -r['views'])[:12]
     paginas = sorted([r for r in linhas if r['tipo'] == 'pagina'], key=lambda r: -r['views'])[:12]
+    portal = sorted([r for r in linhas if r['tipo'] == 'portal'], key=lambda r: -r['views'])[:12]
 
     figs = []
     if serie:
@@ -327,6 +341,8 @@ def monta_html(d, servidor=False):
             (brn(total.get('total_unique', 0)), 'visitantes distintos', S.ACCENT),
             (brn(sum(r['views'] for r in linhas if r['tipo'] == 'trecho')),
              'gráficos de trecho abertos', S.PURPLE),
+            (brn(sum(r['views'] for r in linhas if r['tipo'] == 'portal')),
+             'visitas ao portal do RIDAB', S.GREEN),
             (brn(hf_ult['downloads_total']) if hf_ult else '—',
              'downloads do RIDAB (acumulado)', S.GOLD)]
 
@@ -371,6 +387,12 @@ Hugging Face.</p>
 <div class="kpis">{''.join(f'<div class="kpi" style="--c:{c}"><div class="v">{v}</div><div class="l">{l}</div></div>' for v, l, c in kpis)}</div>
 <div class="grid">
 {figs_html}
+<div class="card full" style="padding-top:0;border-top:none;margin-top:-6px">
+  <div class="h" style="margin:0">Ressalva do gráfico acima: o contador de downloads do
+  Hugging Face mistura duas coisas. O portal do RIDAB lê os parquets direto de lá pelo
+  navegador, então <b>abrir uma página de consulta do portal também conta como download</b> —
+  e o DuckDB lê por faixas, então uma visita pode gerar mais de uma requisição. Movimento na
+  curva sem visita ao portal é que indica gente puxando a base por fora.</div></div>
 <div class="card full"><h2>Passagens mais abertas</h2>
   <div class="h">Cada linha é um gráfico de trecho que alguém abriu dentro do texto — o que a
   pessoa quis conferir por conta própria. Lê melhor que contagem de visita.</div>
@@ -378,9 +400,14 @@ Hugging Face.</p>
 <div class="card"><h2>Abas do painel</h2>
   <div class="h">Qual pergunta puxou gente para os dados.</div>
   {rank_html(abas, S.CYAN, 'Nenhuma aba visitada ainda.')}</div>
-<div class="card"><h2>Páginas</h2>
-  <div class="h">O tráfego bruto, para contexto.</div>
+<div class="card"><h2>Páginas do estudo</h2>
+  <div class="h">O tráfego bruto de <code>/fomento-fsa/</code>, para contexto.</div>
   {rank_html(paginas, S.ACCENT, 'Nenhuma visita ainda.')}</div>
+<div class="card"><h2>Portal do RIDAB</h2>
+  <div class="h">As páginas de <code>/riab/</code>, que dividem o mesmo contador. Vale
+  cruzar com a curva de downloads: o portal lê os parquets direto do Hugging Face, então
+  visita aqui vira download lá.</div>
+  {rank_html(portal, S.GREEN, 'Nenhuma visita ainda.')}</div>
 <div class="sec">De onde vem e em que abrem</div>
 {ctx or '<div class="card full"><div class="vazio">Sem dado de contexto ainda.</div></div>'}
 </div>
