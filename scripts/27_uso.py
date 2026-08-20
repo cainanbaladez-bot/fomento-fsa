@@ -144,16 +144,18 @@ def coleta():
     ini = (hoje - dt.timedelta(days=DIAS)).isoformat() + 'T00:00:00Z'
     fim = hoje.isoformat() + 'T23:00:00Z'
 
-    hits = gc('stats/hits', token, site, start=ini, end=fim, limit=200, group='day')
     total = gc('stats/total', token, site, start=ini, end=fim)
+    hits = gc('stats/hits', token, site, start=ini, end=fim, limit=200, group='day')
 
     linhas, serie = [], {}
     for h in ((hits or {}).get('hits') or []):
         tipo, nome, ident = humano(h.get('path', ''))
         linhas.append({'tipo': tipo, 'nome': nome, 'id': ident,
                        'views': h.get('count') or 0, 'visitantes': h.get('count_unique') or 0})
-        for d in (h.get('stats') or []):
-            serie[d['day']] = serie.get(d['day'], 0) + (d.get('daily') or 0)
+    # a série diária sai do /stats/total, que já vem dia a dia e não some quando
+    # ainda não há caminho nenhum registrado (o /stats/hits vem vazio nesse caso)
+    for d in ((total or {}).get('stats') or []):
+        serie[d['day']] = d.get('daily') or 0
 
     contexto = []
     for page, rotulo, cor in BLOCOS:
