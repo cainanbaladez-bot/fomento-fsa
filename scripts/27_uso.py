@@ -127,39 +127,51 @@ def carrega_titulos():
 
 TITULOS, SECAO = carrega_titulos()
 PERGUNTA = {c[0]: c[2] for c in S.CLAIMS}
-# Os dois sites caem no mesmo GoatCounter e se distinguem pelo caminho:
-#   /fomento-fsa/...  → o estudo (GitHub Pages de cainanbaladez-bot/fomento-fsa)
-#   /riab/...         → o portal do RIDAB (riabr-dados.github.io/riab)
-PAGINA = {'/ensaio.html': 'Análise (o texto)', '/evidencias.html': 'Painel de dados',
-          '/index.html': 'Início', '/': 'Início'}
-PORTAL = {'/': 'Início do portal', '/datasets/': 'Datasets', '/explorar/': 'Explorar',
-          '/transformar/': 'Transformar (cruzar bases)', '/conexoes/': 'Conexões',
-          '/consulta/': 'Consulta', '/mural/': 'Mural', '/sobre/': 'Sobre',
-          '/brasil-no-mundo/': 'Brasil no mundo'}
+
+# ── OS TRÊS PRODUTOS ──────────────────────────────────────────────────────────
+# Os três sites dividem o mesmo GoatCounter e se distinguem pelo caminho da página.
+# Cada um vira uma ripa no painel, com os seus próprios números.
+PRODUTOS = [
+    {'id': 'fsa', 'nome': 'Análise do fomento · FSA 2014–2023', 'cor': S.CYAN,
+     'prefixo': '/fomento-fsa', 'url': 'https://cainanbaladez-bot.github.io/fomento-fsa/',
+     'o_que': 'o ensaio e o painel de dados',
+     'paginas': {'/ensaio.html': 'Análise (o texto)', '/evidencias.html': 'Painel de dados',
+                 '/index.html': 'Início', '/': 'Início'}},
+    {'id': 'ridab', 'nome': 'RIDAB · repositório de dados', 'cor': S.GREEN,
+     'prefixo': '/riab', 'url': 'https://riabr-dados.github.io/riab/',
+     'o_que': 'o portal dos dados abertos',
+     'paginas': {'/': 'Início do portal', '/datasets/': 'Datasets', '/explorar/': 'Explorar',
+                 '/transformar/': 'Transformar (cruzar bases)', '/conexoes/': 'Conexões',
+                 '/consulta/': 'Consulta', '/mural/': 'Mural', '/sobre/': 'Sobre',
+                 '/brasil-no-mundo/': 'Brasil no mundo'}},
+    {'id': 'mostra', 'nome': 'Planejador da 49ª Mostra', 'cor': S.GOLD,
+     'prefixo': '/planejador-mostrasp', 'url': 'https://cainanbaladez-bot.github.io/planejador-mostrasp/',
+     'o_que': 'a agenda pessoal do festival',
+     'paginas': {'/': 'Planejador', '/index.html': 'Planejador'}},
+]
 ABA_NOME = {'g_rankings': 'Rankings', 'g_chamadas': 'Chamadas', 'dados': 'Dados abertos'}
 
 
 def humano(path):
+    """Classifica o caminho: evento do ensaio, ou página de um dos três produtos."""
     p = path if path.startswith('/') else '/' + path
     m = re.match(r'^/trecho/(.+)$', p)
     if m:
         gid = m.group(1)
         sec = SECAO.get(gid, '')
         pref = f'P{sec[1:]} · ' if sec.startswith('c') else ''
-        return 'trecho', pref + TITULOS.get(gid, gid), gid
+        return 'trecho', pref + TITULOS.get(gid, gid), gid, 'fsa'
     m = re.match(r'^/aba/(?:q_)?(.+)$', p)
     if m:
         aid = m.group(1)
-        if aid in PERGUNTA:
-            return 'aba', f'Pergunta {aid[1:]} · {PERGUNTA[aid]}', aid
-        return 'aba', ABA_NOME.get(aid, aid), aid
-    if p.startswith('/riab'):
-        resto = p[5:] or '/'
-        return 'portal', PORTAL.get(resto, resto), p
-    if p.startswith('/fomento-fsa'):
-        resto = p[12:] or '/'
-        return 'pagina', PAGINA.get(resto, resto), p
-    return 'pagina', PAGINA.get(p, p), p
+        nome = (f'Pergunta {aid[1:]} · {PERGUNTA[aid]}' if aid in PERGUNTA
+                else ABA_NOME.get(aid, aid))
+        return 'aba', nome, aid, 'fsa'
+    for pr in PRODUTOS:
+        if p == pr['prefixo'] or p.startswith(pr['prefixo'] + '/'):
+            resto = p[len(pr['prefixo']):] or '/'
+            return 'pagina', pr['paginas'].get(resto, resto), p, pr['id']
+    return 'pagina', p, p, '?'
 
 
 # ── coleta ────────────────────────────────────────────────────────────────────
@@ -176,9 +188,10 @@ def coleta():
 
     linhas, serie = [], {}
     for h in ((hits or {}).get('hits') or []):
-        tipo, nome, ident = humano(h.get('path', ''))
-        linhas.append({'tipo': tipo, 'nome': nome, 'id': ident,
-                       'views': h.get('count') or 0, 'visitantes': h.get('count_unique') or 0})
+        tipo, nome, ident, prod = humano(h.get('path', ''))
+        dia = {x['day']: (x.get('daily') or 0) for x in (h.get('stats') or [])}
+        linhas.append({'tipo': tipo, 'nome': nome, 'id': ident, 'produto': prod,
+                       'views': h.get('count') or 0, 'dia': dia})
     # a série diária sai do /stats/total, que já vem dia a dia e não some quando
     # ainda não há caminho nenhum registrado (o /stats/hits vem vazio nesse caso)
     for d in ((total or {}).get('stats') or []):
@@ -205,13 +218,13 @@ def coleta():
         if os.path.exists(snap):
             ja = [r for r in csv.DictReader(open(snap, encoding='utf-8-sig'))
                   if r.get('coletado_em', '')[:10] != hoje.isoformat()]
-        cols = ['coletado_em', 'janela_dias', 'tipo', 'id', 'nome', 'views', 'visitantes']
+        cols = ['coletado_em', 'janela_dias', 'produto', 'tipo', 'id', 'nome', 'views']
         with open(snap, 'w', encoding='utf-8', newline='') as fh:
             w = csv.DictWriter(fh, fieldnames=cols)
             w.writeheader()
             w.writerows(ja + [{'coletado_em': hoje.isoformat(), 'janela_dias': DIAS,
-                               'tipo': r['tipo'], 'id': r['id'], 'nome': r['nome'],
-                               'views': r['views'], 'visitantes': r['visitantes']}
+                               'produto': r.get('produto', ''), 'tipo': r['tipo'],
+                               'id': r['id'], 'nome': r['nome'], 'views': r['views']}
                               for r in linhas])
     return {'site': site, 'token': bool(token), 'linhas': linhas, 'serie': serie,
             'total': total or {}, 'contexto': contexto, 'hf': hf}
@@ -269,7 +282,26 @@ main{padding:22px 30px 0}
 .kpi{background:#12151e;border:1px solid #232838;border-top:2px solid var(--c);border-radius:10px;padding:13px 15px}
 .kpi .v{font-size:26px;font-weight:800;letter-spacing:-.6px;line-height:1}
 .kpi .l{font-size:11px;color:#7b849a;margin-top:6px;line-height:1.4}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px}
+.ripa{background:#12151e;border:1px solid #232838;border-left:4px solid var(--c);border-radius:12px;
+      padding:16px 18px 14px;margin-bottom:16px}
+.ripa-hd{display:flex;align-items:flex-start;gap:20px;flex-wrap:wrap;padding-bottom:13px;
+         margin-bottom:14px;border-bottom:1px solid #1c2030}
+.ripa-hd h2{font-size:17px;font-weight:800;letter-spacing:-.2px;color:#eef1f6;margin:0}
+.ripa-sub{font-size:11.5px;color:#7b849a;margin-top:4px}
+.ripa-sub a{color:var(--c);text-decoration:none;font-weight:600}
+.ripa-kpi{display:flex;gap:26px;margin-left:auto}
+.ripa-kpi div{text-align:right}
+.ripa-kpi b{display:block;font-size:23px;font-weight:800;letter-spacing:-.5px;color:#e8ecf4;line-height:1}
+.ripa-kpi span{display:block;font-size:10.5px;color:#7b849a;margin-top:4px}
+.ripa-corpo{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.col h3{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+        color:#8f9ab3;margin-bottom:5px}
+.col.serie{min-width:230px}
+.mini{font-size:13px;color:#cbd5e1;line-height:1.7;background:#0f1218;border:1px solid #1c2030;
+      border-radius:9px;padding:10px 12px}
+.mini b{color:#e8ecf4;font-size:15px}
+.dim{color:#6d7689;font-size:11px}
 .card{background:#12151e;border:1px solid #232838;border-radius:12px;padding:15px 16px 13px;min-width:0}
 .card h2{font-size:14.5px;font-weight:700;margin-bottom:4px}
 .card .h{font-size:11.5px;color:#7b849a;margin-bottom:13px;line-height:1.5}
@@ -306,118 +338,137 @@ JS = """
 """
 
 
+def spark(dias, valores, cor, pid, h=110):
+    """Fita fina de visitas por dia, para ir dentro da ripa do produto."""
+    f = go.Figure(go.Bar(x=dias, y=valores, marker_color=cor,
+                         hovertemplate='%{x}: %{y} visita(s)<extra></extra>'))
+    f.update_layout(paper_bgcolor='#12151e', plot_bgcolor='#12151e', height=h,
+                    margin=dict(l=34, r=8, t=6, b=22), showlegend=False,
+                    font=dict(family='Inter,system-ui,sans-serif', color=S.TXT, size=10),
+                    hoverlabel=dict(font_size=11, font_family='Inter'))
+    f.update_xaxes(showgrid=False, linecolor=S.GRID, tickfont_size=9)
+    f.update_yaxes(gridcolor='#1a1f2c', zerolinecolor=S.GRID, tickfont_size=9,
+                   rangemode='tozero', nticks=3)
+    return fig_html(f, pid)
+
+
 def monta_html(d, servidor=False):
     linhas, serie, total, hf = d['linhas'], d['serie'], d['total'], d['hf']
-    trechos = sorted([r for r in linhas if r['tipo'] == 'trecho'], key=lambda r: -r['views'])[:25]
-    abas = sorted([r for r in linhas if r['tipo'] == 'aba'], key=lambda r: -r['views'])[:12]
-    paginas = sorted([r for r in linhas if r['tipo'] == 'pagina'], key=lambda r: -r['views'])[:12]
-    portal = sorted([r for r in linhas if r['tipo'] == 'portal'], key=lambda r: -r['views'])[:12]
+    dias = sorted(serie) if serie else []
 
-    figs = []
-    if serie:
-        dias = sorted(serie)
-        f = go.Figure(go.Bar(x=dias, y=[serie[x] for x in dias], marker_color=S.CYAN,
-                             hovertemplate='%{x}: %{y} visitas<extra></extra>'))
-        base_fig(f, 250, ytitle='visitas por dia')
-        figs.append(('Visitas por dia', fig_html(f, 'pl-visitas')))
-    if hf:
-        x = [r['data'] for r in hf]
-        f = make_subplots(specs=[[{'secondary_y': True}]])
-        f.add_scatter(x=x, y=[int(r['downloads_total'] or 0) for r in hf], name='acumulado',
-                      mode='lines+markers', line=dict(color=S.GOLD, width=2.4), marker=dict(size=6),
-                      hovertemplate='%{x}: %{y} acumulados<extra></extra>')
-        f.add_bar(x=x, y=[int(r['downloads_30d'] or 0) for r in hf], name='últimos 30 dias',
-                  marker_color='#3a4560', secondary_y=True,
-                  hovertemplate='%{x}: %{y} na janela de 30 dias<extra></extra>')
-        base_fig(f, 250, legend=True, ytitle='downloads acumulados')
-        f.update_yaxes(title='janela de 30 dias', secondary_y=True, showgrid=False,
-                       title_font_size=11, tickfont_size=10.5)
-        f.update_layout(legend=dict(orientation='h', y=1.18, x=0, font_size=10.5,
-                                    bgcolor='rgba(0,0,0,0)'))
-        figs.append(('Downloads do RIDAB no Hugging Face', fig_html(f, 'pl-hf')))
+    # ── as três ripas ─────────────────────────────────────────────────────────
+    ripas = []
+    for pr in PRODUTOS:
+        do_prod = [r for r in linhas if r.get('produto') == pr['id']]
+        pags = sorted([r for r in do_prod if r['tipo'] == 'pagina'], key=lambda r: -r['views'])
+        visitas = sum(r['views'] for r in pags)
+        por_dia = [sum(r['dia'].get(dia, 0) for r in pags) for dia in dias]
+        ativos = sum(1 for v in por_dia if v)
 
-    hf_ult = hf[-1] if hf else None
-    kpis = [(brn(total.get('total', 0)), f'visitas em {DIAS} dias', S.CYAN),
-            (brn(total.get('total_unique', 0)), 'visitantes distintos', S.ACCENT),
-            (brn(sum(r['views'] for r in linhas if r['tipo'] == 'trecho')),
-             'gráficos de trecho abertos', S.PURPLE),
-            (brn(sum(r['views'] for r in linhas if r['tipo'] == 'portal')),
-             'visitas ao portal do RIDAB', S.GREEN),
-            (brn(hf_ult['downloads_total']) if hf_ult else '—',
-             'downloads do RIDAB (acumulado)', S.GOLD)]
+        # o que cada produto tem de próprio, além das páginas
+        extra = ''
+        if pr['id'] == 'fsa':
+            trechos = sorted([r for r in do_prod if r['tipo'] == 'trecho'],
+                             key=lambda r: -r['views'])[:12]
+            abas = sorted([r for r in do_prod if r['tipo'] == 'aba'],
+                          key=lambda r: -r['views'])[:8]
+            extra = (f'<div class="col"><h3>Passagens abertas no texto</h3>'
+                     f'<div class="h">O gráfico que a pessoa quis conferir por conta própria.</div>'
+                     f'{rank_html(trechos, S.PURPLE, "Ninguém abriu um trecho ainda.")}</div>'
+                     f'<div class="col"><h3>Abas do painel</h3>'
+                     f'<div class="h">Qual pergunta puxou gente para os dados.</div>'
+                     f'{rank_html(abas, S.CYAN, "Nenhuma aba visitada ainda.")}</div>')
+        elif pr['id'] == 'ridab' and hf:
+            u = hf[-1]
+            extra = (f'<div class="col"><h3>Downloads no Hugging Face</h3>'
+                     f'<div class="h">Ressalva: o portal lê os parquets direto de lá, então '
+                     f'visita ao portal também vira download — e o DuckDB lê por faixas, então '
+                     f'uma visita pode gerar mais de uma requisição.</div>'
+                     f'<div class="mini"><b>{brn(u["downloads_total"])}</b> acumulados · '
+                     f'<b>{brn(u["downloads_30d"])}</b> nos últimos 30 dias · '
+                     f'{brn(u["likes"])} likes<br><span class="dim">série de {len(hf)} '
+                     f'ponto(s), capturada todo dia pelo scripts/26</span></div></div>')
+        elif pr['id'] == 'mostra':
+            extra = ('<div class="col"><h3>Nota do app</h3>'
+                     '<div class="h">O Planejador é um PWA: quem instalou abre do cache e pode '
+                     'usar sem internet, e nesse caso a visita não chega ao contador. O número '
+                     'aqui é piso, mais ainda que nos outros dois.</div></div>')
+
+        ripas.append(f"""
+<section class="ripa" style="--c:{pr['cor']}">
+  <div class="ripa-hd">
+    <div>
+      <h2>{pr['nome']}</h2>
+      <div class="ripa-sub">{pr['o_que']} · <a href="{pr['url']}" target="_blank">{pr['prefixo']}/</a></div>
+    </div>
+    <div class="ripa-kpi">
+      <div><b>{brn(visitas)}</b><span>visitas</span></div>
+      <div><b>{brn(len(pags))}</b><span>páginas vistas</span></div>
+      <div><b>{brn(ativos)}</b><span>dias com acesso</span></div>
+    </div>
+  </div>
+  <div class="ripa-corpo">
+    <div class="col serie">
+      <h3>Visitas por dia</h3>
+      {spark(dias, por_dia, pr['cor'], 'sp-' + pr['id']) if dias else '<div class="vazio">sem série ainda</div>'}
+    </div>
+    <div class="col"><h3>Páginas</h3>
+      {rank_html(pags[:10], pr['cor'], 'Nenhuma visita ainda.')}</div>
+    {extra}
+  </div>
+</section>""")
+
+    # ── contexto, comum aos três ──────────────────────────────────────────────
+    ctx = ''.join(f'<div class="card"><h2>{rot}</h2>{rank_html(it, cor, "—", True)}</div>'
+                  for rot, cor, it in d['contexto'])
+
+    tot_geral = total.get('total', 0)
+    tot_ev = total.get('total_events', 0)
+    sem_prod = [r for r in linhas if r.get('produto') == '?']
 
     aviso = ''
     if not d['token']:
-        aviso = ('<div class="aviso"><b>Falta o token da API.</b> Os blocos de acesso estão '
-                 'vazios porque este painel ainda não tem credencial. Crie em '
+        aviso = ('<div class="aviso"><b>Falta o token da API.</b> Crie em '
                  f'<a href="https://{d["site"]}.goatcounter.com/user/api">'
-                 f'{d["site"]}.goatcounter.com → API</a> (permissão de <i>ler estatísticas</i>) e '
-                 'escreva na raiz do projeto um <code>.env.analytics</code> com:<br>'
-                 f'<code>GOATCOUNTER_SITE={d["site"]}</code><br>'
-                 '<code>GOATCOUNTER_TOKEN=&lt;o token&gt;</code><br>'
-                 'Depois é só apertar atualizar aqui em cima. O arquivo é ignorado pelo git.</div>')
-    elif not linhas:
-        aviso = ('<div class="aviso"><b>Nenhum acesso ainda.</b> O token funciona, mas o '
-                 'GoatCounter não recebeu dado no período — esperado enquanto ninguém abriu o '
-                 'site publicado (localhost não conta).</div>')
+                 f'{d["site"]}.goatcounter.com → API</a> e escreva em <code>.env.analytics</code>: '
+                 f'<code>GOATCOUNTER_SITE={d["site"]}</code> e <code>GOATCOUNTER_TOKEN=…</code></div>')
+    elif not tot_geral:
+        aviso = ('<div class="aviso"><b>Nenhum acesso no período.</b> O token funciona; o '
+                 'GoatCounter só não recebeu dado. Lembre que localhost não conta e que os '
+                 'seus IPs e navegadores marcados são ignorados de propósito.</div>')
+    if sem_prod:
+        aviso += ('<div class="aviso"><b>Caminhos fora dos três produtos:</b> '
+                  + ', '.join(f'<code>{r["id"]}</code>' for r in sem_prod[:6])
+                  + '. Se for site novo, me diga para eu acrescentar a ripa dele.</div>')
 
-    ctx = ''.join(f'<div class="card"><h2>{rot}</h2>{rank_html(it, cor, "—", True)}</div>'
-                  for rot, cor, it in d['contexto'])
     botao = ('<a class="btn" id="btn-atualizar" href="/atualizar">↻ atualizar agora</a>'
              if servidor else '')
-    figs_html = ''.join(f'<div class="card full"><h2>{t}</h2>{h}</div>' for t, h in figs)
 
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Uso · FSA 2014–2023</title>
+<title>Uso · três produtos</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="plotly.min.js" defer></script>
 <style>{CSS}</style></head><body>
 <div class="top"><h1>Quem leu o quê</h1><span class="priv">privado</span>
-  <span class="quando">coletado em {dt.datetime.now().strftime('%d/%m/%Y às %H:%M')}</span>
+  <span class="quando">{brn(tot_geral)} visitas e {brn(tot_ev)} eventos em {DIAS} dias ·
+  coletado em {dt.datetime.now().strftime('%d/%m/%Y às %H:%M')}</span>
   {botao}</div>
 <main>
-<p class="sub">Uso do trabalho nos últimos {DIAS} dias: o tráfego, de onde veio, e — o que
-importa mais — <b>quais passagens do argumento as pessoas abriram</b>. Some a isso a série de
-downloads do RIDAB no Hugging Face. Fontes: GoatCounter (<code>{d['site']}</code>) e API do
-Hugging Face.</p>
 {aviso}
-<div class="kpis">{''.join(f'<div class="kpi" style="--c:{c}"><div class="v">{v}</div><div class="l">{l}</div></div>' for v, l, c in kpis)}</div>
-<div class="grid">
-{figs_html}
-<div class="card full" style="padding-top:0;border-top:none;margin-top:-6px">
-  <div class="h" style="margin:0">Ressalva do gráfico acima: o contador de downloads do
-  Hugging Face mistura duas coisas. O portal do RIDAB lê os parquets direto de lá pelo
-  navegador, então <b>abrir uma página de consulta do portal também conta como download</b> —
-  e o DuckDB lê por faixas, então uma visita pode gerar mais de uma requisição. Movimento na
-  curva sem visita ao portal é que indica gente puxando a base por fora.</div></div>
-<div class="card full"><h2>Passagens mais abertas</h2>
-  <div class="h">Cada linha é um gráfico de trecho que alguém abriu dentro do texto — o que a
-  pessoa quis conferir por conta própria. Lê melhor que contagem de visita.</div>
-  {rank_html(trechos, S.PURPLE, 'Nenhum trecho aberto ainda.')}</div>
-<div class="card"><h2>Abas do painel</h2>
-  <div class="h">Qual pergunta puxou gente para os dados.</div>
-  {rank_html(abas, S.CYAN, 'Nenhuma aba visitada ainda.')}</div>
-<div class="card"><h2>Páginas do estudo</h2>
-  <div class="h">O tráfego bruto de <code>/fomento-fsa/</code>, para contexto.</div>
-  {rank_html(paginas, S.ACCENT, 'Nenhuma visita ainda.')}</div>
-<div class="card"><h2>Portal do RIDAB</h2>
-  <div class="h">As páginas de <code>/riab/</code>, que dividem o mesmo contador. Vale
-  cruzar com a curva de downloads: o portal lê os parquets direto do Hugging Face, então
-  visita aqui vira download lá.</div>
-  {rank_html(portal, S.GREEN, 'Nenhuma visita ainda.')}</div>
-<div class="sec">De onde vem e em que abrem</div>
-{ctx or '<div class="card full"><div class="vazio">Sem dado de contexto ainda.</div></div>'}
-</div>
+{''.join(ripas)}
+<div class="sec">De onde vem e em que abrem — os três somados</div>
+<div class="grid">{ctx or '<div class="card"><div class="vazio">Sem dado de contexto ainda.</div></div>'}</div>
 </main>
 <footer>
-Arquivo privado: mora em <code>outputs/uso/</code>, que está no .gitignore — não é versionado
-nem publicado, e a página leva <code>noindex</code>.<br>
-GoatCounter sem cookie, com os seus IPs filtrados · Hugging Face <code>riabr-dados/riab</code>,
-{len(hf)} ponto(s) na série (scripts/26, diário).<br>
-Bloqueador de anúncio derruba parte da medição: trate como piso, não como censo.
+Arquivo privado em <code>outputs/uso/</code> (no .gitignore, com <code>noindex</code>).
+Os três sites dividem o mesmo GoatCounter e se separam pelo caminho da página.<br>
+GoatCounter sem cookie, com os seus IPs filtrados e os navegadores marcados por
+<code>#toggle-goatcounter</code> · Hugging Face <code>riabr-dados/riab</code>.<br>
+Bloqueador de anúncio derruba parte da medição, e o Planejador funciona offline:
+trate tudo como piso, não como censo.
 </footer>
 <script>{JS}</script>
 </body></html>"""
