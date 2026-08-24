@@ -5,11 +5,14 @@
 Pedido do Cainan (24/08/2026): um Word que seja apenas o argumento, sem os dados e
 sem a metodologia, começando pela conclusão — o fomento precisa usar evidência para
 consolidar as estratégias das chamadas e usar o seu poder indutor para reorganizar
-produção e distribuição.
+produção e distribuição. Máximo de três páginas.
 
-Não é extração automática do ensaio. A fonte é um texto próprio, escrito para essa
-finalidade, em `site_src/argumento.md`. Editar lá e rodar este script de novo; o
-`site_src/ensaio.md` (o texto completo, com dados) segue independente.
+REGRA DESTE DOCUMENTO (correção do Cainan, 24/08): o texto é **dele**, não meu. A
+fonte `site_src/argumento.md` é montada com frases LITERAIS do `site_src/ensaio.md`,
+na ordem que arma o raciocínio. A única edição permitida é pontual, para alinhavar:
+cortar a oração que traz número ou método, tirar o conector que ficou órfão depois do
+corte, desfazer parêntese. Não reescrever, não resumir com palavras minhas.
+A primeira versão foi reescrita na minha voz e recusada — não repetir o erro.
 
 Estilo do documento: o mesmo do `scripts/32` (Calibri, títulos em azul-marinho), sem
 figura nenhuma — é texto corrido de ponta a ponta.
@@ -52,12 +55,15 @@ strip_md = lambda t: t.replace('**', '').replace('*', '').replace('`', '')
 INLINE = re.compile(r'(\*\*.+?\*\*|\*[^*]+\*)')
 
 doc = Document()
+for _sec in doc.sections:
+    _sec.top_margin = _sec.bottom_margin = Inches(0.8)
+    _sec.left_margin = _sec.right_margin = Inches(0.95)
 st = doc.styles['Normal']
 st.font.name = 'Calibri'
-st.font.size = Pt(11.5)
+st.font.size = Pt(11)
 st.font.color.rgb = INK
-st.paragraph_format.space_after = Pt(9)
-st.paragraph_format.line_spacing = 1.25
+st.paragraph_format.space_after = Pt(7)
+st.paragraph_format.line_spacing = 1.15
 
 
 def add_runs(p, text):
@@ -84,18 +90,18 @@ p = doc.add_paragraph()
 p.paragraph_format.space_after = Pt(8)
 r = p.add_run(strip_md(meta['title']))
 r.bold = True
-r.font.size = Pt(26)
+r.font.size = Pt(21)
 r.font.color.rgb = INK
 
 p = doc.add_paragraph()
-p.paragraph_format.space_after = Pt(18)
+p.paragraph_format.space_after = Pt(12)
 r = p.add_run(strip_md(meta['subtitle']))
 r.italic = True
 r.font.size = Pt(12)
 r.font.color.rgb = GREY
 
 p = doc.add_paragraph()
-p.paragraph_format.space_after = Pt(20)
+p.paragraph_format.space_after = Pt(14)
 p.paragraph_format.left_indent = Inches(0.02)
 r = p.add_run(
     'Este documento traz apenas o encadeamento do raciocínio. Os números, as fontes, os '
@@ -109,11 +115,11 @@ r.font.color.rgb = GREY
 # ── corpo ──
 for i, s in enumerate(secs):
     p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(6 if i == 0 else 20)
+    p.paragraph_format.space_before = Pt(4 if i == 0 else 15)
     p.paragraph_format.space_after = Pt(6)
     r = p.add_run(strip_md(s['titulo']))
     r.bold = True
-    r.font.size = Pt(14)
+    r.font.size = Pt(13)
     r.font.color.rgb = NAVY
     for tx in s['paras']:
         pp = doc.add_paragraph()
