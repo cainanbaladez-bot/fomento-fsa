@@ -27,6 +27,7 @@ scripts/20_site_index.py
 scripts/21_site_ensaio.py
 scripts/30_docx_gerar.py
 scripts/31_docx_importar.py
+scripts/32_docx_final.py
 scripts/33_docx_parte_curtas.py
 scripts/34_docx_quebras_barreira.py
 scripts/35_docx_curtas_reescrita.py
