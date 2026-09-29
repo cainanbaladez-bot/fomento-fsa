@@ -240,6 +240,28 @@ h2{font-size:27px;line-height:1.24;margin-bottom:20px;color:#eef1f6}
   if(document.readyState==='complete') bind();
   else window.addEventListener('load',bind);
 })();
+</script><script>
+(function(){
+  if(!('IntersectionObserver' in window)) return;
+  var lidas={}, relogio={};
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      var id=e.target.id; if(lidas[id]) return;
+      if(e.isIntersecting){
+        relogio[id]=setTimeout(function(){
+          lidas[id]=1; io.unobserve(e.target);
+          if(window.ev) window.ev('leitura/'+id, 'leitura: '+id);
+        },3000);
+      } else { clearTimeout(relogio[id]); }
+    });
+  },{rootMargin:'-30% 0px -30% 0px'});
+  function liga(){
+    [].slice.call(document.querySelectorAll('section[id]')).forEach(function(s){
+      if(/^c\d+$/.test(s.id)) io.observe(s);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',liga); else liga();
+})();
 </script>
 </div>
 <script>
